@@ -6,24 +6,24 @@
     </SourceModelFeatureSet>
     <UserSettingsDefinition Envoy="1" Name=":Project:ZProjectSettings">
         <ProbeManager Envoy="1" Target="Project" xmlns="http://www.ni.com/PlatformFramework">
-            <VIProbe ConnectableId="1501" Envoy="1189" Index="1" Position="275 915" Target="Connectable" xmlns="http://www.ni.com/LabVIEW.VI" />
             <VIProbe ConnectableId="1445" Envoy="1189" Index="2" Position="-748 680" Target="Connectable" xmlns="http://www.ni.com/LabVIEW.VI" />
             <VIProbe ConnectableId="1496" Envoy="1189" Index="3" Position="-204 1005" Target="Connectable" xmlns="http://www.ni.com/LabVIEW.VI" />
             <VIProbe ConnectableId="1444" Envoy="1189" Index="4" Position="-644 600" Target="Connectable" xmlns="http://www.ni.com/LabVIEW.VI" />
             <VIProbe ConnectableId="1441" Envoy="1189" Index="5" Position="-858.8571 655" Target="Connectable" xmlns="http://www.ni.com/LabVIEW.VI" />
         </ProbeManager>
         <OpenDocumentManager Envoy="1" Target="Project" xmlns="http://www.ni.com/PlatformFramework">
-            <OpenDocument ActiveDocument="True" ActiveEditor="Panel" Envoy="312" />
+            <OpenDocument ActiveEditor="Panel" Envoy="312" />
             <OpenDocument Envoy="308" />
             <OpenDocument Envoy="772" />
             <OpenDocument Envoy="303" />
             <OpenDocument Envoy="293" />
-            <OpenDocument Envoy="1189" />
+            <OpenDocument ActiveEditor="Panel" Envoy="1189" />
+            <OpenDocument ActiveDocument="True" ActiveEditor="Panel" Envoy="1195" />
         </OpenDocumentManager>
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="1137" Name=":Project:PC:sliding_correlator_MIMO\.gviprotected">
         <DefinitionCacheUserSetting Envoy="1137" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024ADA26182" Height="40" ListViewHeight="135" ListViewWidth="150" Name="sliding_correlator_MIMO\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC6EDDDA" Height="40" ListViewHeight="135" ListViewWidth="150" Name="sliding_correlator_MIMO\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -380,7 +380,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="1155" Name=":Project:PC:channel_estimate_MIMO\.gviprotected">
         <DefinitionCacheUserSetting Envoy="1155" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024ACA2588C" Height="40" ListViewHeight="150" ListViewWidth="150" Name="channel_estimate_MIMO\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC4D29FF" Height="40" ListViewHeight="150" ListViewWidth="150" Name="channel_estimate_MIMO\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -793,7 +793,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="1164" Name=":Project:PC:channel\.gvi">
         <DefinitionCacheUserSetting Envoy="1164" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AC866188" Height="40" ListViewHeight="135" ListViewWidth="150" Name="channel\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC4CB514" Height="40" ListViewHeight="135" ListViewWidth="150" Name="channel\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -1102,7 +1102,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="1178" Name=":Project:PC:make_4_channels\.gvi">
         <DefinitionCacheUserSetting Envoy="1178" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024ACF77CDA" Height="40" ListViewHeight="105" ListViewWidth="150" Name="make_4_channels\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC58E811" Height="40" ListViewHeight="105" ListViewWidth="150" Name="make_4_channels\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -1316,7 +1316,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="628" Name=":Project:PC:RXRF_config\.gvi">
         <DefinitionCacheUserSetting Envoy="628" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AE2812B1" Height="50" ListViewHeight="330" ListViewWidth="150" Name="RXRF_config\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6ACADB904" Height="50" ListViewHeight="330" ListViewWidth="150" Name="RXRF_config\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -2151,7 +2151,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="1187" Name=":Project:PC:Alamouti_TX_student\.gvi">
         <DefinitionCacheUserSetting Envoy="1187" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D690E1F8E0E821" Height="40" ListViewHeight="135" ListViewWidth="150" Name="Alamouti_TX_student\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC3C8A98" Height="40" ListViewHeight="135" ListViewWidth="150" Name="Alamouti_TX_student\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -2500,7 +2500,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="630" Name=":Project:PC:RXRF_init\.gvi">
         <DefinitionCacheUserSetting Envoy="630" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AE3DE445" Height="50" ListViewHeight="150" ListViewWidth="150" Name="RXRF_init\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6ACB161FF" Height="50" ListViewHeight="150" ListViewWidth="150" Name="RXRF_init\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -3313,7 +3313,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="1189" Name=":Project:PC:Alamouti_RX_student\.gvi">
         <DefinitionCacheUserSetting Envoy="1189" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D6927270FCA346" Height="40" ListViewHeight="150" ListViewWidth="150" Name="Alamouti_RX_student\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC3C63A5" Height="40" ListViewHeight="150" ListViewWidth="150" Name="Alamouti_RX_student\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -3724,7 +3724,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="632" Name=":Project:PC:RXRF_recv\.gvi">
         <DefinitionCacheUserSetting Envoy="632" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AE5664F6" Height="60" ListViewHeight="210" ListViewWidth="150" Name="RXRF_recv\.gvi" Width="60" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6ACB3F9A9" Height="60" ListViewHeight="210" ListViewWidth="150" Name="RXRF_recv\.gvi" Width="60" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -4594,7 +4594,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="1191" Name=":Project:PC:channel_estimate_MIMO_student\.gvi">
         <DefinitionCacheUserSetting Envoy="1191" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AA46C4A8" Height="40" ListViewHeight="150" ListViewWidth="150" Name="channel_estimate_MIMO_student\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC3C8A98" Height="40" ListViewHeight="150" ListViewWidth="150" Name="channel_estimate_MIMO_student\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -5008,7 +5008,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="634" Name=":Project:PC:RXRF_trigger_and_capture\.gvi">
         <DefinitionCacheUserSetting Envoy="634" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AE6EFDF4" Height="40" ListViewHeight="165" ListViewWidth="150" Name="RXRF_trigger_and_capture\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6ACB72D8C" Height="40" ListViewHeight="165" ListViewWidth="150" Name="RXRF_trigger_and_capture\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -5405,7 +5405,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="636" Name=":Project:PC:TXRF_init\.gvi">
         <DefinitionCacheUserSetting Envoy="636" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AE841A98" Height="50" ListViewHeight="180" ListViewWidth="150" Name="TXRF_init\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6ACB83EF4" Height="50" ListViewHeight="180" ListViewWidth="150" Name="TXRF_init\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -6091,7 +6091,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="1195" Name=":Project:PC:Training\ sequence\ preprocessing_student\.gvi">
         <DefinitionCacheUserSetting Envoy="1195" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AAFB3D5F" Height="40" ListViewHeight="60" ListViewWidth="150" Name="Training\ sequence\ preprocessing_student\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6ACA4929B" Height="40" ListViewHeight="60" ListViewWidth="150" Name="Training\ sequence\ preprocessing_student\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -6125,7 +6125,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="638" Name=":Project:PC:TXRF_prepare_for_transmit_MIMO\.gvi">
         <DefinitionCacheUserSetting Envoy="638" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AE9906E2" Height="40" ListViewHeight="120" ListViewWidth="150" Name="TXRF_prepare_for_transmit_MIMO\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6ACBC5CEC" Height="40" ListViewHeight="120" ListViewWidth="150" Name="TXRF_prepare_for_transmit_MIMO\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -6246,7 +6246,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="640" Name=":Project:PC:TXRF_send_MIMO\.gvi">
         <DefinitionCacheUserSetting Envoy="640" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AEA31B98" Height="50" ListViewHeight="165" ListViewWidth="150" Name="TXRF_send_MIMO\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6ACBC5CEC" Height="50" ListViewHeight="165" ListViewWidth="150" Name="TXRF_send_MIMO\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -6710,7 +6710,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="1216" Name=":Project:PC:sliding_correlator_MIMO_student\.gvi">
         <DefinitionCacheUserSetting Envoy="1216" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AACB5E4C" Height="40" ListViewHeight="135" ListViewWidth="150" Name="sliding_correlator_MIMO_student\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC944157" Height="40" ListViewHeight="135" ListViewWidth="150" Name="sliding_correlator_MIMO_student\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -7067,7 +7067,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="664" Name=":Project:PC:TXRF_init_MIMO\.gvi">
         <DefinitionCacheUserSetting Envoy="664" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AE8F0B63" Height="50" ListViewHeight="180" ListViewWidth="150" Name="TXRF_init_MIMO\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6ACBB2499" Height="50" ListViewHeight="180" ListViewWidth="150" Name="TXRF_init_MIMO\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -8866,7 +8866,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="688" Name=":Project:PC:RXRF_init_MIMO\.gvi">
         <DefinitionCacheUserSetting Envoy="688" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AE4AF143" Height="50" ListViewHeight="150" ListViewWidth="150" Name="RXRF_init_MIMO\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6ACB3AB9C" Height="50" ListViewHeight="150" ListViewWidth="150" Name="RXRF_init_MIMO\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -9707,7 +9707,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="693" Name=":Project:PC:RXRF_config_MIMO\.gvi">
         <DefinitionCacheUserSetting Envoy="693" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AE33753C" Height="50" ListViewHeight="330" ListViewWidth="150" Name="RXRF_config_MIMO\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6ACB13AFA" Height="50" ListViewHeight="330" ListViewWidth="150" Name="RXRF_config_MIMO\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -10573,7 +10573,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="698" Name=":Project:PC:RXRF_recv_MIMO\.gvi">
         <DefinitionCacheUserSetting Envoy="698" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AE62EE93" Height="60" ListViewHeight="225" ListViewWidth="150" Name="RXRF_recv_MIMO\.gvi" Width="60" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6ACB4E3EE" Height="60" ListViewHeight="225" ListViewWidth="150" Name="RXRF_recv_MIMO\.gvi" Width="60" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -11426,7 +11426,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="703" Name=":Project:PC:RXRF_trigger_and_capture_MIMO\.gvi">
         <DefinitionCacheUserSetting Envoy="703" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AE79AF7A" Height="40" ListViewHeight="180" ListViewWidth="150" Name="RXRF_trigger_and_capture_MIMO\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6ACB83EF4" Height="40" ListViewHeight="180" ListViewWidth="150" Name="RXRF_trigger_and_capture_MIMO\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -14366,7 +14366,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="772" Name=":Project:PC:transmitter_MIMO\.gvi">
         <DefinitionCacheUserSetting Envoy="772" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D690E2646EA687" Height="70" ListViewHeight="270" ListViewWidth="150" Name="transmitter_MIMO\.gvi" Width="80" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6ACAD6AF1" Height="70" ListViewHeight="270" ListViewWidth="150" Name="transmitter_MIMO\.gvi" Width="80" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -14389,54 +14389,6 @@
                         </MergeItem>
                     </MergeScript>
                 </p.IconModel>
-                <CachedQualifiedDependency SourceId="436" TargetName="transmitter_init\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="451" TargetName="transmitter_enque\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="475" TargetName="transmitter_generate_waveforms\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="3649" TargetName="transmitter_generate_waveforms\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9037" TargetName="source\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9042" TargetName="modulate\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9043" TargetName="pulse_shaping\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9078" TargetName="Training_sequence_preprocessing\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9082" TargetName="add_control_MIMO\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9148" TargetName="make_MTwaveform\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9149" TargetName="make_MTwaveform\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="436" TargetName="transmitter_init\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="451" TargetName="transmitter_enque\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="475" TargetName="transmitter_generate_waveforms\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="3649" TargetName="transmitter_generate_waveforms\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9036" TargetName="Alamouti_TX\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9037" TargetName="source\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9042" TargetName="modulate\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9043" TargetName="pulse_shaping\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9078" TargetName="Training_sequence_preprocessing\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9082" TargetName="add_control_MIMO\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9148" TargetName="make_MTwaveform\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9149" TargetName="make_MTwaveform\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9168" TargetName="Alamouti_TX_student\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="436" TargetName="transmitter_init\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="451" TargetName="transmitter_enque\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="475" TargetName="transmitter_generate_waveforms\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="3649" TargetName="transmitter_generate_waveforms\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9037" TargetName="source\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9042" TargetName="modulate\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9043" TargetName="pulse_shaping\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9078" TargetName="Training_sequence_preprocessing\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9082" TargetName="add_control_MIMO\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9148" TargetName="make_MTwaveform\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9149" TargetName="make_MTwaveform\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9168" TargetName="Alamouti_TX_student\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="436" TargetName="transmitter_init\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="451" TargetName="transmitter_enque\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="475" TargetName="transmitter_generate_waveforms\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="3649" TargetName="transmitter_generate_waveforms\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9037" TargetName="source\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9042" TargetName="modulate\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9043" TargetName="pulse_shaping\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9078" TargetName="Training_sequence_preprocessing\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9082" TargetName="add_control_MIMO\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9148" TargetName="make_MTwaveform\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9149" TargetName="make_MTwaveform\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="9168" TargetName="Alamouti_TX_student\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
                 <DataItemCacheInfo CallDirection="Input" CallIndex="0" CallUsage="Recommended" DataType="@1976405295_0" HotSpot="0 15" ListViewHotSpot="0 125" Name="HW Parameters In" PreferredDirection="Input" SideIndex="L1">
                     <p.DefaultValue>
                         <Cluster>
@@ -14936,7 +14888,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="781" Name=":Project:PC:receiver_apply_channel_MIMO\ \(SubVI\)\.gvi">
         <DefinitionCacheUserSetting Envoy="781" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AD5301A4" Height="40" ListViewHeight="195" ListViewWidth="150" Name="receiver_apply_channel_MIMO\ \(SubVI\)\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC617252" Height="40" ListViewHeight="195" ListViewWidth="150" Name="receiver_apply_channel_MIMO\ \(SubVI\)\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -18723,7 +18675,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="293" Name=":Project:PC:receiver_MIMO\.gvi">
         <DefinitionCacheUserSetting Envoy="293" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D690F6CDE42A95" Height="70" ListViewHeight="345" ListViewWidth="150" Name="receiver_MIMO\.gvi" Width="80" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC86A81E" Height="70" ListViewHeight="345" ListViewWidth="150" Name="receiver_MIMO\.gvi" Width="80" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -18746,69 +18698,6 @@
                         </MergeItem>
                     </MergeScript>
                 </p.IconModel>
-                <CachedQualifiedDependency SourceId="558" TargetName="receiver_init\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="585" TargetName="synchronize_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="608" TargetName="strip_control_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="619" TargetName="error_detect\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="625" TargetName="receiver_generate_waveforms\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1670" TargetName="matched_filtering_MIMO\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1681" TargetName="decode\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1685" TargetName="receiver_channel_impairments_MIMO\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1875" TargetName="channel_estimate_MIMO\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="558" TargetName="receiver_init\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="585" TargetName="synchronize_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="608" TargetName="strip_control_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="619" TargetName="error_detect\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="625" TargetName="receiver_generate_waveforms\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1670" TargetName="matched_filtering_MIMO\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1681" TargetName="decode\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1685" TargetName="receiver_channel_impairments_MIMO\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1875" TargetName="channel_estimate_MIMO\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1944" TargetName="Training_sequence_preprocessing\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="558" TargetName="receiver_init\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="585" TargetName="synchronize_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="608" TargetName="strip_control_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="619" TargetName="error_detect\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="625" TargetName="receiver_generate_waveforms\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1670" TargetName="matched_filtering_MIMO\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1681" TargetName="decode\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1682" TargetName="Alamouti_RX\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1685" TargetName="receiver_channel_impairments_MIMO\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1875" TargetName="channel_estimate_MIMO\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1944" TargetName="Training_sequence_preprocessing\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="558" TargetName="receiver_init\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="585" TargetName="synchronize_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="608" TargetName="strip_control_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="619" TargetName="error_detect\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="625" TargetName="receiver_generate_waveforms\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1670" TargetName="matched_filtering_MIMO\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1681" TargetName="decode\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1682" TargetName="Alamouti_RX\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1685" TargetName="receiver_channel_impairments_MIMO\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1875" TargetName="channel_estimate_MIMO\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1944" TargetName="Training_sequence_preprocessing\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="558" TargetName="receiver_init\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="585" TargetName="synchronize_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="608" TargetName="strip_control_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="619" TargetName="error_detect\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="625" TargetName="receiver_generate_waveforms\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1670" TargetName="matched_filtering_MIMO\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1681" TargetName="decode\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1685" TargetName="receiver_channel_impairments_MIMO\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1875" TargetName="channel_estimate_MIMO\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1944" TargetName="Training_sequence_preprocessing\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1975" TargetName="Alamouti_RX_student\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="558" TargetName="receiver_init\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="585" TargetName="synchronize_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="608" TargetName="strip_control_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="619" TargetName="error_detect\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="625" TargetName="receiver_generate_waveforms\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1670" TargetName="matched_filtering_MIMO\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1681" TargetName="decode\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1685" TargetName="receiver_channel_impairments_MIMO\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1875" TargetName="channel_estimate_MIMO\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1944" TargetName="Training_sequence_preprocessing\.gviprotected" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1975" TargetName="Alamouti_RX_student\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
                 <DataItemCacheInfo CallDirection="Input" CallIndex="0" CallUsage="Recommended" DataType="@1744032881_0" HotSpot="0 5" ListViewHotSpot="0 140" Name="HW Parameters In" PreferredDirection="Input" SideIndex="L0">
                     <p.DefaultValue>
                         <Cluster>
@@ -19921,7 +19810,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="303" Name=":Project:PC:top_rx_MIMO\.gvi">
         <DefinitionCacheUserSetting Envoy="303" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D690F5B0666E19" Height="80" ListViewHeight="420" ListViewWidth="150" Name="top_rx_MIMO\.gvi" Width="80" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6ACA75163" Height="80" ListViewHeight="420" ListViewWidth="150" Name="top_rx_MIMO\.gvi" Width="80" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -19945,74 +19834,6 @@
                         </MergeItem>
                     </MergeScript>
                 </p.IconModel>
-                <CachedQualifiedDependency SourceId="2503" TargetName="RXRF_init_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="707" TargetName="reveciver_plot_IQ\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="716" TargetName="receiver_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2546" TargetName="reveciver_plot_IQ\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2521" TargetName="RXRF_recv_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6455" TargetName="channel\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6456" TargetName="channel\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6457" TargetName="channel\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6458" TargetName="channel\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6518" TargetName="make_4_channels\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6527" TargetName="MT\ Resample\ \(Complex\ Cluster\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6528" TargetName="MT\ Resample\ \(Complex\ Cluster\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6529" TargetName="MT\ Resample\ \(Complex\ Cluster\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6530" TargetName="MT\ Resample\ \(Complex\ Cluster\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2510" TargetName="RXRF_config_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2500" TargetName="Mean\ \(DBL\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="736" TargetName="RXRF_close_MIMO\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2503" TargetName="RXRF_init_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="707" TargetName="reveciver_plot_IQ\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="716" TargetName="receiver_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2546" TargetName="reveciver_plot_IQ\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2521" TargetName="RXRF_recv_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6455" TargetName="channel\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6456" TargetName="channel\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6457" TargetName="channel\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6458" TargetName="channel\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6518" TargetName="make_4_channels\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6527" TargetName="MT\ Resample\ \(Complex\ Cluster\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6528" TargetName="MT\ Resample\ \(Complex\ Cluster\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6529" TargetName="MT\ Resample\ \(Complex\ Cluster\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6530" TargetName="MT\ Resample\ \(Complex\ Cluster\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2510" TargetName="RXRF_config_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2500" TargetName="Mean\ \(DBL\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="736" TargetName="RXRF_close_MIMO\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2503" TargetName="RXRF_init_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="707" TargetName="reveciver_plot_IQ\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="716" TargetName="receiver_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2546" TargetName="reveciver_plot_IQ\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2521" TargetName="RXRF_recv_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6455" TargetName="channel\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6456" TargetName="channel\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6457" TargetName="channel\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6458" TargetName="channel\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6518" TargetName="make_4_channels\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6527" TargetName="MT\ Resample\ \(Complex\ Cluster\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6528" TargetName="MT\ Resample\ \(Complex\ Cluster\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6529" TargetName="MT\ Resample\ \(Complex\ Cluster\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6530" TargetName="MT\ Resample\ \(Complex\ Cluster\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2510" TargetName="RXRF_config_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2500" TargetName="Mean\ \(DBL\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="736" TargetName="RXRF_close_MIMO\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2503" TargetName="RXRF_init_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="707" TargetName="reveciver_plot_IQ\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="716" TargetName="receiver_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2546" TargetName="reveciver_plot_IQ\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2521" TargetName="RXRF_recv_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6455" TargetName="channel\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6456" TargetName="channel\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6457" TargetName="channel\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6458" TargetName="channel\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6518" TargetName="make_4_channels\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6527" TargetName="MT\ Resample\ \(Complex\ Cluster\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6528" TargetName="MT\ Resample\ \(Complex\ Cluster\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6529" TargetName="MT\ Resample\ \(Complex\ Cluster\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="6530" TargetName="MT\ Resample\ \(Complex\ Cluster\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2510" TargetName="RXRF_config_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="2500" TargetName="Mean\ \(DBL\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="736" TargetName="RXRF_close_MIMO\ \(SubVI\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
                 <DataItemCacheInfo CallDirection="Input" CallIndex="0" CallUsage="Recommended" DataType="Int32" HotSpot="15 0" ListViewHotSpot="0 35" Name="# of Receive Iterations" PreferredDirection="Input" SideIndex="T0">
                     <p.DefaultValue>1</p.DefaultValue>
                 </DataItemCacheInfo>
@@ -21018,7 +20839,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="308" Name=":Project:PC:top_tx_MIMO\.gvi">
         <DefinitionCacheUserSetting Envoy="308" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AAF0FAFB" Height="50" ListViewHeight="165" ListViewWidth="150" Name="top_tx_MIMO\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6ACA3F66F" Height="50" ListViewHeight="165" ListViewWidth="150" Name="top_tx_MIMO\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -21042,38 +20863,6 @@
                         </MergeItem>
                     </MergeScript>
                 </p.IconModel>
-                <CachedQualifiedDependency SourceId="108" TargetName="niUSRP\ Close\ Session\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="561" TargetName="TXRF_prepare_for_transmit_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="564" TargetName="TXRF_send_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="459" TargetName="TXRF_send_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="124" TargetName="niUSRP\ Close\ Session\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="453" TargetName="TXRF_prepare_for_transmit_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="781" TargetName="TXRF_init_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="3380" TargetName="transmitter_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="108" TargetName="niUSRP\ Close\ Session\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="561" TargetName="TXRF_prepare_for_transmit_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="564" TargetName="TXRF_send_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="459" TargetName="TXRF_send_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="124" TargetName="niUSRP\ Close\ Session\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="453" TargetName="TXRF_prepare_for_transmit_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="781" TargetName="TXRF_init_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="3380" TargetName="transmitter_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="108" TargetName="niUSRP\ Close\ Session\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="561" TargetName="TXRF_prepare_for_transmit_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="564" TargetName="TXRF_send_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="459" TargetName="TXRF_send_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="124" TargetName="niUSRP\ Close\ Session\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="453" TargetName="TXRF_prepare_for_transmit_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="781" TargetName="TXRF_init_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="3380" TargetName="transmitter_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="108" TargetName="niUSRP\ Close\ Session\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="561" TargetName="TXRF_prepare_for_transmit_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="564" TargetName="TXRF_send_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="459" TargetName="TXRF_send_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="124" TargetName="niUSRP\ Close\ Session\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="453" TargetName="TXRF_prepare_for_transmit_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="781" TargetName="TXRF_init_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="3380" TargetName="transmitter_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
                 <DataItemCacheInfo CallDirection="Input" CallIndex="0" CallUsage="Recommended" DataType="@1976405295_0" HotSpot="0 5" ListViewHotSpot="0 95" Name="HW Parameters" PreferredDirection="Input" SideIndex="L0">
                     <p.DefaultValue>
                         <Cluster>
@@ -21443,7 +21232,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="312" Name=":Project:PC:simulator\.gvi">
         <DefinitionCacheUserSetting Envoy="312" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AABE8CDC" Height="40" ListViewHeight="30" ListViewWidth="150" Name="simulator\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC93CC2E" Height="40" ListViewHeight="30" ListViewWidth="150" Name="simulator\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -21491,10 +21280,15 @@
                 <CachedQualifiedDependency SourceId="946" TargetName="Mean\ \(DBL\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
                 <CachedQualifiedDependency SourceId="948" TargetName="Mean\ \(DBL\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
                 <CachedQualifiedDependency SourceId="4902" TargetName="Mean\ \(DBL\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+                <CachedQualifiedDependency SourceId="936" TargetName="top_rx_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+                <CachedQualifiedDependency SourceId="2995" TargetName="top_tx_MIMO\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+                <CachedQualifiedDependency SourceId="946" TargetName="Mean\ \(DBL\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+                <CachedQualifiedDependency SourceId="948" TargetName="Mean\ \(DBL\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+                <CachedQualifiedDependency SourceId="4902" TargetName="Mean\ \(DBL\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
             </FunctionSignatureCache>
         </DefinitionCacheUserSetting>
         <ScrollAndZoomSettingCache Envoy="312" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <ScrollAndZoomEditor EditorName="VIPanelControl" ScrollHorizontalOffset="0" ScrollVerticalOffset="768" Zoom="1" />
+            <ScrollAndZoomEditor EditorName="VIPanelControl" ScrollHorizontalOffset="0" ScrollVerticalOffset="672" Zoom="1" />
             <ScrollAndZoomEditor EditorName="VIDiagramControl" ScrollHorizontalOffset="-276" ScrollVerticalOffset="-170" Zoom="1" />
         </ScrollAndZoomSettingCache>
     </UserSettingsDefinition>
@@ -23135,7 +22929,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="911" Name=":Project:PC:frame_detect_MIMO\.gvi">
         <DefinitionCacheUserSetting Envoy="911" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024ACD81400" Height="40" ListViewHeight="135" ListViewWidth="150" Name="frame_detect_MIMO\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC558D21" Height="40" ListViewHeight="135" ListViewWidth="150" Name="frame_detect_MIMO\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -23541,7 +23335,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="931" Name=":Project:PC:Alamouti_TX\.gviprotected">
         <DefinitionCacheUserSetting Envoy="931" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AC68BCE2" Height="40" ListViewHeight="135" ListViewWidth="150" Name="Alamouti_TX\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC45B118" Height="40" ListViewHeight="135" ListViewWidth="150" Name="Alamouti_TX\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -23886,6 +23680,225 @@
             <ScrollAndZoomEditor EditorName="VIPanelControl" ScrollHorizontalOffset="0" ScrollVerticalOffset="0" Zoom="1" />
         </ScrollAndZoomSettingCache>
     </UserSettingsDefinition>
+    <UserSettingsDefinition Envoy="940" Name=":Project:PC:source\.gviprotected">
+        <DefinitionCacheUserSetting Envoy="940" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC72ADD8" Height="40" ListViewHeight="105" ListViewWidth="150" Name="source\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+                <p.IconModel>
+                    <MergeScript xmlns="http://www.ni.com/PlatformFramework">
+                        <MergeFeatureSet>
+                            <SourceModelFeatureSet>
+                                <ParsableNamespace AssemblyFileVersion="3.0.0.56744" FeatureSetName="Editor" MinimumParsableVersion="3.0.0.0" MinimumSemanticallyEquivalentVersion="3.0.0.0" Name="http://www.ni.com/PlatformFramework" Version="3.0.0.49152" />
+                            </SourceModelFeatureSet>
+                        </MergeFeatureSet>
+                        <MergeItem Path="." IsPrimary="True">
+                            <Icon ListViewIconCrop="0 0 40 40">
+                                <IconPanel Height="[float]40" Width="[float]40">
+                                    <IconTemplate ClipMargin="[SMThickness]3,3,3,3" TemplateName="GrayNoText">
+                                        <Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" />
+                                        <Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" />
+                                    </IconTemplate>
+                                    <Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True">
+                                        <Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+                                        <Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff646464" Height="[float]13" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+                                        <Text Font="[SMFont]0,6," Foreground="[SMColor]#ffffffff" Left="[float]2" Text="[string]DigComm" TextWrapping="[TextWrapping]NoWrap" Top="[float]1" />
+                                        <Text Font="[SMFont]0,6," Left="[float]8" Text="[string]Source" TextWrapping="[TextWrapping]NoWrap" Top="[float]18" />
+                                    </Canvas>
+                                </IconPanel>
+                            </Icon>
+                        </MergeItem>
+                    </MergeScript>
+                </p.IconModel>
+                <DataItemCacheInfo CallDirection="Input" CallIndex="0" CallUsage="Recommended" DataType="@-960863178_0" HotSpot="0 15" ListViewHotSpot="0 80" Name="Modulation Parameters In" PreferredDirection="Input" SideIndex="L1">
+                    <p.DefaultValue>
+                        <Cluster>
+                            <Field1>QPSK</Field1>
+                            <Field2>
+                                <Cluster>
+                                    <Field1>1</Field1>
+                                    <Field2>2</Field2>
+                                    <Field3>0x3FE0000000000000</Field3>
+                                    <Field4>8</Field4>
+                                </Cluster>
+                            </Field2>
+                            <Field3>20</Field3>
+                            <Field4>500</Field4>
+                            <Field5>0x4059000000000000</Field5>
+                            <Field6>
+                                <Cluster>
+                                    <Field1>IEEE 802.11a Short</Field1>
+                                    <Field2>8</Field2>
+                                </Cluster>
+                            </Field6>
+                        </Cluster>
+                    </p.DefaultValue>
+                </DataItemCacheInfo>
+                <DataItemCacheInfo CallDirection="Input" CallIndex="2" CallUsage="Recommended" DataType="Error" HotSpot="0 35" ListViewHotSpot="0 35" Name="error in (no error)" PreferredDirection="Input" SideIndex="L3">
+                    <p.DefaultValue>
+                        <Cluster>
+                            <Field1>False</Field1>
+                            <Field2>0</Field2>
+                            <Field3>""</Field3>
+                        </Cluster>
+                    </p.DefaultValue>
+                </DataItemCacheInfo>
+                <DataItemCacheInfo CallDirection="Output" CallIndex="0" CallUsage="Recommended" DataType="@-960863178_0" HotSpot="40 15" ListViewHotSpot="150 95" Name="Modulation Parameters Out" PreferredDirection="Output" SideIndex="R1">
+                    <p.DefaultValue>
+                        <Cluster>
+                            <Field1>QPSK</Field1>
+                            <Field2>
+                                <Cluster>
+                                    <Field1>1</Field1>
+                                    <Field2>2</Field2>
+                                    <Field3>0x3FE0000000000000</Field3>
+                                    <Field4>8</Field4>
+                                </Cluster>
+                            </Field2>
+                            <Field3>20</Field3>
+                            <Field4>500</Field4>
+                            <Field5>0x4059000000000000</Field5>
+                            <Field6>
+                                <Cluster>
+                                    <Field1>IEEE 802.11a Short</Field1>
+                                    <Field2>8</Field2>
+                                </Cluster>
+                            </Field6>
+                        </Cluster>
+                    </p.DefaultValue>
+                </DataItemCacheInfo>
+                <DataItemCacheInfo CallDirection="Output" CallIndex="1" CallUsage="Recommended" DataType="Int8[]" HotSpot="40 5" ListViewHotSpot="150 50" Name="output bit stream" PreferredDirection="Output" SideIndex="R0" />
+                <DataItemCacheInfo CallDirection="Output" CallIndex="3" CallUsage="Recommended" DataType="Error" HotSpot="40 35" ListViewHotSpot="150 65" Name="error out" PreferredDirection="Output" SideIndex="R3">
+                    <p.DefaultValue>
+                        <Cluster>
+                            <Field1>False</Field1>
+                            <Field2>0</Field2>
+                            <Field3>""</Field3>
+                        </Cluster>
+                    </p.DefaultValue>
+                </DataItemCacheInfo>
+                <CachedQualifiedDependency SourceId="181" TargetName="MT\ Generate\ Bits\ \(Galois\,\ PN\ Order\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+            </FunctionSignatureCache>
+            <DataTypeReferenceTable>
+                <p.TypeReference TypeId="-960863178_0">
+                    <Class Id="1" Name="" Cluster="">
+                        <ClosedGenericParameters />
+                        <GenericTypeDefinition>
+                            <Void />
+                        </GenericTypeDefinition>
+                        <BaseType>
+                            <Void />
+                        </BaseType>
+                        <Interfaces />
+                        <Members>
+                            <Field FieldAccessPolicy="ReadWrite" Name="Modulation Type">
+                                <DataType>
+                                    <String />
+                                </DataType>
+                            </Field>
+                            <Field FieldAccessPolicy="ReadWrite" Name="Pulse Shaping Parameters">
+                                <DataType>
+                                    <Class Id="2" Name="" Cluster="">
+                                        <ClosedGenericParameters />
+                                        <GenericTypeDefinition>
+                                            <Void />
+                                        </GenericTypeDefinition>
+                                        <BaseType>
+                                            <Void />
+                                        </BaseType>
+                                        <Interfaces />
+                                        <Members>
+                                            <Field FieldAccessPolicy="ReadWrite" Name="Modulation Type">
+                                                <DataType>
+                                                    <Enumeration Name="Enum">
+                                                        <Members>
+                                                            <EnumerationMember Value="0" Name="FSK" />
+                                                            <EnumerationMember Value="1" Name="PSK" />
+                                                            <EnumerationMember Value="2" Name="QAM" />
+                                                            <EnumerationMember Value="3" Name="MSK" />
+                                                            <EnumerationMember Value="4" Name="PAM" />
+                                                            <EnumerationMember Value="5" Name="ASK" />
+                                                        </Members>
+                                                        <DataType>
+                                                            <UInt16 />
+                                                        </DataType>
+                                                    </Enumeration>
+                                                </DataType>
+                                            </Field>
+                                            <Field FieldAccessPolicy="ReadWrite" Name="Pulse Shaping Filter">
+                                                <DataType>
+                                                    <Enumeration Name="Enum">
+                                                        <Members>
+                                                            <EnumerationMember Value="0" Name="none" />
+                                                            <EnumerationMember Value="1" Name="Raised Cosine" />
+                                                            <EnumerationMember Value="2" Name="Root Raised Cos" />
+                                                            <EnumerationMember Value="3" Name="Gaussian" />
+                                                        </Members>
+                                                        <DataType>
+                                                            <UInt16 />
+                                                        </DataType>
+                                                    </Enumeration>
+                                                </DataType>
+                                            </Field>
+                                            <Field FieldAccessPolicy="ReadWrite" Name="Filter Parameter">
+                                                <DataType>
+                                                    <Double />
+                                                </DataType>
+                                            </Field>
+                                            <Field FieldAccessPolicy="ReadWrite" Name="Filter Length (Symbols)">
+                                                <DataType>
+                                                    <Int32 />
+                                                </DataType>
+                                            </Field>
+                                        </Members>
+                                    </Class>
+                                </DataType>
+                            </Field>
+                            <Field FieldAccessPolicy="ReadWrite" Name="TX Oversample Factor">
+                                <DataType>
+                                    <Int32 />
+                                </DataType>
+                            </Field>
+                            <Field FieldAccessPolicy="ReadWrite" Name="Packet Length (Bits)">
+                                <DataType>
+                                    <Int32 />
+                                </DataType>
+                            </Field>
+                            <Field FieldAccessPolicy="ReadWrite" Name="TX Sample Rate">
+                                <DataType>
+                                    <Double />
+                                </DataType>
+                            </Field>
+                            <Field FieldAccessPolicy="ReadWrite" Name="Control Information For Packet Header/Tail">
+                                <DataType>
+                                    <Class Id="3" Name="" Cluster="">
+                                        <ClosedGenericParameters />
+                                        <GenericTypeDefinition>
+                                            <Void />
+                                        </GenericTypeDefinition>
+                                        <BaseType>
+                                            <Void />
+                                        </BaseType>
+                                        <Interfaces />
+                                        <Members>
+                                            <Field FieldAccessPolicy="ReadWrite" Name="Training Sequence ">
+                                                <DataType>
+                                                    <String />
+                                                </DataType>
+                                            </Field>
+                                            <Field FieldAccessPolicy="ReadWrite" Name="Zero Pad Length">
+                                                <DataType>
+                                                    <Int32 />
+                                                </DataType>
+                                            </Field>
+                                        </Members>
+                                    </Class>
+                                </DataType>
+                            </Field>
+                        </Members>
+                    </Class>
+                </p.TypeReference>
+            </DataTypeReferenceTable>
+        </DefinitionCacheUserSetting>
+    </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="383" Name=":Project:PC:niUSRP\ Open\ Rx\ Session\.gvi">
         <DefinitionCacheUserSetting Envoy="383" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
             <FunctionSignatureCache CacheSignature="1D0E58260389A80" Height="50" ListViewHeight="75" ListViewWidth="150" Name="niUSRP\ Open\ Rx\ Session\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
@@ -24223,225 +24236,6 @@
                             <AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
                         </AttributeValues>
                     </Attributed>
-                </p.TypeReference>
-            </DataTypeReferenceTable>
-        </DefinitionCacheUserSetting>
-    </UserSettingsDefinition>
-    <UserSettingsDefinition Envoy="940" Name=":Project:PC:source\.gviprotected">
-        <DefinitionCacheUserSetting Envoy="940" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024ADB76CD8" Height="40" ListViewHeight="105" ListViewWidth="150" Name="source\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
-                <p.IconModel>
-                    <MergeScript xmlns="http://www.ni.com/PlatformFramework">
-                        <MergeFeatureSet>
-                            <SourceModelFeatureSet>
-                                <ParsableNamespace AssemblyFileVersion="3.0.0.56744" FeatureSetName="Editor" MinimumParsableVersion="3.0.0.0" MinimumSemanticallyEquivalentVersion="3.0.0.0" Name="http://www.ni.com/PlatformFramework" Version="3.0.0.49152" />
-                            </SourceModelFeatureSet>
-                        </MergeFeatureSet>
-                        <MergeItem Path="." IsPrimary="True">
-                            <Icon ListViewIconCrop="0 0 40 40">
-                                <IconPanel Height="[float]40" Width="[float]40">
-                                    <IconTemplate ClipMargin="[SMThickness]3,3,3,3" TemplateName="GrayNoText">
-                                        <Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" />
-                                        <Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" />
-                                    </IconTemplate>
-                                    <Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True">
-                                        <Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
-                                        <Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff646464" Height="[float]13" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
-                                        <Text Font="[SMFont]0,6," Foreground="[SMColor]#ffffffff" Left="[float]2" Text="[string]DigComm" TextWrapping="[TextWrapping]NoWrap" Top="[float]1" />
-                                        <Text Font="[SMFont]0,6," Left="[float]8" Text="[string]Source" TextWrapping="[TextWrapping]NoWrap" Top="[float]18" />
-                                    </Canvas>
-                                </IconPanel>
-                            </Icon>
-                        </MergeItem>
-                    </MergeScript>
-                </p.IconModel>
-                <DataItemCacheInfo CallDirection="Input" CallIndex="0" CallUsage="Recommended" DataType="@-960863178_0" HotSpot="0 15" ListViewHotSpot="0 80" Name="Modulation Parameters In" PreferredDirection="Input" SideIndex="L1">
-                    <p.DefaultValue>
-                        <Cluster>
-                            <Field1>QPSK</Field1>
-                            <Field2>
-                                <Cluster>
-                                    <Field1>1</Field1>
-                                    <Field2>2</Field2>
-                                    <Field3>0x3FE0000000000000</Field3>
-                                    <Field4>8</Field4>
-                                </Cluster>
-                            </Field2>
-                            <Field3>20</Field3>
-                            <Field4>500</Field4>
-                            <Field5>0x4059000000000000</Field5>
-                            <Field6>
-                                <Cluster>
-                                    <Field1>IEEE 802.11a Short</Field1>
-                                    <Field2>8</Field2>
-                                </Cluster>
-                            </Field6>
-                        </Cluster>
-                    </p.DefaultValue>
-                </DataItemCacheInfo>
-                <DataItemCacheInfo CallDirection="Input" CallIndex="2" CallUsage="Recommended" DataType="Error" HotSpot="0 35" ListViewHotSpot="0 35" Name="error in (no error)" PreferredDirection="Input" SideIndex="L3">
-                    <p.DefaultValue>
-                        <Cluster>
-                            <Field1>False</Field1>
-                            <Field2>0</Field2>
-                            <Field3>""</Field3>
-                        </Cluster>
-                    </p.DefaultValue>
-                </DataItemCacheInfo>
-                <DataItemCacheInfo CallDirection="Output" CallIndex="0" CallUsage="Recommended" DataType="@-960863178_0" HotSpot="40 15" ListViewHotSpot="150 95" Name="Modulation Parameters Out" PreferredDirection="Output" SideIndex="R1">
-                    <p.DefaultValue>
-                        <Cluster>
-                            <Field1>QPSK</Field1>
-                            <Field2>
-                                <Cluster>
-                                    <Field1>1</Field1>
-                                    <Field2>2</Field2>
-                                    <Field3>0x3FE0000000000000</Field3>
-                                    <Field4>8</Field4>
-                                </Cluster>
-                            </Field2>
-                            <Field3>20</Field3>
-                            <Field4>500</Field4>
-                            <Field5>0x4059000000000000</Field5>
-                            <Field6>
-                                <Cluster>
-                                    <Field1>IEEE 802.11a Short</Field1>
-                                    <Field2>8</Field2>
-                                </Cluster>
-                            </Field6>
-                        </Cluster>
-                    </p.DefaultValue>
-                </DataItemCacheInfo>
-                <DataItemCacheInfo CallDirection="Output" CallIndex="1" CallUsage="Recommended" DataType="Int8[]" HotSpot="40 5" ListViewHotSpot="150 50" Name="output bit stream" PreferredDirection="Output" SideIndex="R0" />
-                <DataItemCacheInfo CallDirection="Output" CallIndex="3" CallUsage="Recommended" DataType="Error" HotSpot="40 35" ListViewHotSpot="150 65" Name="error out" PreferredDirection="Output" SideIndex="R3">
-                    <p.DefaultValue>
-                        <Cluster>
-                            <Field1>False</Field1>
-                            <Field2>0</Field2>
-                            <Field3>""</Field3>
-                        </Cluster>
-                    </p.DefaultValue>
-                </DataItemCacheInfo>
-                <CachedQualifiedDependency SourceId="181" TargetName="MT\ Generate\ Bits\ \(Galois\,\ PN\ Order\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-            </FunctionSignatureCache>
-            <DataTypeReferenceTable>
-                <p.TypeReference TypeId="-960863178_0">
-                    <Class Id="1" Name="" Cluster="">
-                        <ClosedGenericParameters />
-                        <GenericTypeDefinition>
-                            <Void />
-                        </GenericTypeDefinition>
-                        <BaseType>
-                            <Void />
-                        </BaseType>
-                        <Interfaces />
-                        <Members>
-                            <Field FieldAccessPolicy="ReadWrite" Name="Modulation Type">
-                                <DataType>
-                                    <String />
-                                </DataType>
-                            </Field>
-                            <Field FieldAccessPolicy="ReadWrite" Name="Pulse Shaping Parameters">
-                                <DataType>
-                                    <Class Id="2" Name="" Cluster="">
-                                        <ClosedGenericParameters />
-                                        <GenericTypeDefinition>
-                                            <Void />
-                                        </GenericTypeDefinition>
-                                        <BaseType>
-                                            <Void />
-                                        </BaseType>
-                                        <Interfaces />
-                                        <Members>
-                                            <Field FieldAccessPolicy="ReadWrite" Name="Modulation Type">
-                                                <DataType>
-                                                    <Enumeration Name="Enum">
-                                                        <Members>
-                                                            <EnumerationMember Value="0" Name="FSK" />
-                                                            <EnumerationMember Value="1" Name="PSK" />
-                                                            <EnumerationMember Value="2" Name="QAM" />
-                                                            <EnumerationMember Value="3" Name="MSK" />
-                                                            <EnumerationMember Value="4" Name="PAM" />
-                                                            <EnumerationMember Value="5" Name="ASK" />
-                                                        </Members>
-                                                        <DataType>
-                                                            <UInt16 />
-                                                        </DataType>
-                                                    </Enumeration>
-                                                </DataType>
-                                            </Field>
-                                            <Field FieldAccessPolicy="ReadWrite" Name="Pulse Shaping Filter">
-                                                <DataType>
-                                                    <Enumeration Name="Enum">
-                                                        <Members>
-                                                            <EnumerationMember Value="0" Name="none" />
-                                                            <EnumerationMember Value="1" Name="Raised Cosine" />
-                                                            <EnumerationMember Value="2" Name="Root Raised Cos" />
-                                                            <EnumerationMember Value="3" Name="Gaussian" />
-                                                        </Members>
-                                                        <DataType>
-                                                            <UInt16 />
-                                                        </DataType>
-                                                    </Enumeration>
-                                                </DataType>
-                                            </Field>
-                                            <Field FieldAccessPolicy="ReadWrite" Name="Filter Parameter">
-                                                <DataType>
-                                                    <Double />
-                                                </DataType>
-                                            </Field>
-                                            <Field FieldAccessPolicy="ReadWrite" Name="Filter Length (Symbols)">
-                                                <DataType>
-                                                    <Int32 />
-                                                </DataType>
-                                            </Field>
-                                        </Members>
-                                    </Class>
-                                </DataType>
-                            </Field>
-                            <Field FieldAccessPolicy="ReadWrite" Name="TX Oversample Factor">
-                                <DataType>
-                                    <Int32 />
-                                </DataType>
-                            </Field>
-                            <Field FieldAccessPolicy="ReadWrite" Name="Packet Length (Bits)">
-                                <DataType>
-                                    <Int32 />
-                                </DataType>
-                            </Field>
-                            <Field FieldAccessPolicy="ReadWrite" Name="TX Sample Rate">
-                                <DataType>
-                                    <Double />
-                                </DataType>
-                            </Field>
-                            <Field FieldAccessPolicy="ReadWrite" Name="Control Information For Packet Header/Tail">
-                                <DataType>
-                                    <Class Id="3" Name="" Cluster="">
-                                        <ClosedGenericParameters />
-                                        <GenericTypeDefinition>
-                                            <Void />
-                                        </GenericTypeDefinition>
-                                        <BaseType>
-                                            <Void />
-                                        </BaseType>
-                                        <Interfaces />
-                                        <Members>
-                                            <Field FieldAccessPolicy="ReadWrite" Name="Training Sequence ">
-                                                <DataType>
-                                                    <String />
-                                                </DataType>
-                                            </Field>
-                                            <Field FieldAccessPolicy="ReadWrite" Name="Zero Pad Length">
-                                                <DataType>
-                                                    <Int32 />
-                                                </DataType>
-                                            </Field>
-                                        </Members>
-                                    </Class>
-                                </DataType>
-                            </Field>
-                        </Members>
-                    </Class>
                 </p.TypeReference>
             </DataTypeReferenceTable>
         </DefinitionCacheUserSetting>
@@ -25598,7 +25392,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="949" Name=":Project:PC:modulate\.gviprotected">
         <DefinitionCacheUserSetting Envoy="949" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AD30BBD5" Height="40" ListViewHeight="135" ListViewWidth="150" Name="modulate\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC5EB394" Height="40" ListViewHeight="135" ListViewWidth="150" Name="modulate\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -25821,7 +25615,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="958" Name=":Project:PC:pulse_shaping\.gviprotected">
         <DefinitionCacheUserSetting Envoy="958" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AD46CC73" Height="40" ListViewHeight="165" ListViewWidth="150" Name="pulse_shaping\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC614B41" Height="40" ListViewHeight="165" ListViewWidth="150" Name="pulse_shaping\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -26511,7 +26305,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="438" Name=":Project:PC:awgn_channel\.gvi">
         <DefinitionCacheUserSetting Envoy="438" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AC7C522B" Height="40" ListViewHeight="105" ListViewWidth="150" Name="awgn_channel\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC4A6B42" Height="40" ListViewHeight="105" ListViewWidth="150" Name="awgn_channel\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -26568,7 +26362,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="999" Name=":Project:PC:add_control_MIMO\.gviprotected">
         <DefinitionCacheUserSetting Envoy="999" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AC42F7AB" Height="40" ListViewHeight="165" ListViewWidth="150" Name="add_control_MIMO\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC420829" Height="40" ListViewHeight="165" ListViewWidth="150" Name="add_control_MIMO\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -26866,7 +26660,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="1001" Name=":Project:PC:Training_sequence_preprocessing\.gviprotected">
         <DefinitionCacheUserSetting Envoy="1001" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024ADFA93FB" Height="40" ListViewHeight="120" ListViewWidth="150" Name="Training_sequence_preprocessing\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC7D81BC" Height="40" ListViewHeight="120" ListViewWidth="150" Name="Training_sequence_preprocessing\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -27014,7 +26808,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="446" Name=":Project:PC:direct_equalizer\.gvi">
         <DefinitionCacheUserSetting Envoy="446" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024ACB8C58E" Height="50" ListViewHeight="165" ListViewWidth="150" Name="direct_equalizer\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC516F1A" Height="50" ListViewHeight="165" ListViewWidth="150" Name="direct_equalizer\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -27361,7 +27155,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="448" Name=":Project:PC:equalizer\.gvi">
         <DefinitionCacheUserSetting Envoy="448" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024ACC34F56" Height="40" ListViewHeight="165" ListViewWidth="150" Name="equalizer\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC51E432" Height="40" ListViewHeight="165" ListViewWidth="150" Name="equalizer\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -27704,7 +27498,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="450" Name=":Project:PC:error_detect\.gvi">
         <DefinitionCacheUserSetting Envoy="450" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024ACCDCF0F" Height="40" ListViewHeight="105" ListViewWidth="150" Name="error_detect\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC536AB5" Height="40" ListViewHeight="105" ListViewWidth="150" Name="error_detect\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -27759,7 +27553,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="454" Name=":Project:PC:indirect_equalizer\.gvi">
         <DefinitionCacheUserSetting Envoy="454" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024ACE39F8C" Height="50" ListViewHeight="165" ListViewWidth="150" Name="indirect_equalizer\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC55B43E" Height="50" ListViewHeight="165" ListViewWidth="150" Name="indirect_equalizer\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -28106,7 +27900,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="1013" Name=":Project:PC:matched_filtering_MIMO\.gviprotected">
         <DefinitionCacheUserSetting Envoy="1013" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AD1A0F15" Height="40" ListViewHeight="150" ListViewWidth="150" Name="matched_filtering_MIMO\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC5C69FC" Height="40" ListViewHeight="150" ListViewWidth="150" Name="matched_filtering_MIMO\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -28522,7 +28316,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="456" Name=":Project:PC:joint_estimation\.gvi">
         <DefinitionCacheUserSetting Envoy="456" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024ACEDCBB3" Height="40" ListViewHeight="165" ListViewWidth="150" Name="joint_estimation\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC5761AA" Height="40" ListViewHeight="165" ListViewWidth="150" Name="joint_estimation\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -28883,7 +28677,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="458" Name=":Project:PC:make_MTwaveform\.gvi">
         <DefinitionCacheUserSetting Envoy="458" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AD03235B" Height="40" ListViewHeight="90" ListViewWidth="150" Name="make_MTwaveform\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC58C10D" Height="40" ListViewHeight="90" ListViewWidth="150" Name="make_MTwaveform\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -28966,7 +28760,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="460" Name=":Project:PC:make_Toeplitz\.gvi">
         <DefinitionCacheUserSetting Envoy="460" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AD0EAC08" Height="40" ListViewHeight="75" ListViewWidth="150" Name="make_Toeplitz\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC5BA6C1" Height="40" ListViewHeight="75" ListViewWidth="150" Name="make_Toeplitz\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -29001,7 +28795,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="1022" Name=":Project:PC:align_MaxEnergy_MIMO\.gviprotected">
         <DefinitionCacheUserSetting Envoy="1022" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AC72BC3F" Height="40" ListViewHeight="105" ListViewWidth="150" Name="align_MaxEnergy_MIMO\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC48BDC5" Height="40" ListViewHeight="105" ListViewWidth="150" Name="align_MaxEnergy_MIMO\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -29385,7 +29179,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="472" Name=":Project:PC:receiver_channel_impairments_MIMO\ \(SubVI\)\.gvi">
         <DefinitionCacheUserSetting Envoy="472" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AD5F14FA" Height="50" ListViewHeight="165" ListViewWidth="150" Name="receiver_channel_impairments_MIMO\ \(SubVI\)\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC625CB8" Height="50" ListViewHeight="165" ListViewWidth="150" Name="receiver_channel_impairments_MIMO\ \(SubVI\)\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -29858,7 +29652,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="1031" Name=":Project:PC:add_freq_offset\.gvi">
         <DefinitionCacheUserSetting Envoy="1031" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AC4F3271" Height="40" ListViewHeight="105" ListViewWidth="150" Name="add_freq_offset\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC4514D0" Height="40" ListViewHeight="105" ListViewWidth="150" Name="add_freq_offset\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -29903,7 +29697,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="474" Name=":Project:PC:receiver_generate_waveforms\ \(SubVI\)\.gvi">
         <DefinitionCacheUserSetting Envoy="474" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AD69C62A" Height="50" ListViewHeight="180" ListViewWidth="150" Name="receiver_generate_waveforms\ \(SubVI\)\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC65696C" Height="50" ListViewHeight="180" ListViewWidth="150" Name="receiver_generate_waveforms\ \(SubVI\)\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -29931,22 +29725,6 @@
                         </MergeItem>
                     </MergeScript>
                 </p.IconModel>
-                <CachedQualifiedDependency SourceId="411" TargetName="MT\ Format\ Eye\ Diagram\ \(complex\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="418" TargetName="Upsample\ \(CDB\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="421" TargetName="MT\ Get\ Complex\ IQ\ Component\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="672" TargetName="make_MTwaveform\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="676" TargetName="make_MTwaveform\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="686" TargetName="MT\ Format\ Constellation\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1211" TargetName="MT\ Format\ Eye\ Diagram\ \(complex\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1323" TargetName="Upsample\ \(CDB\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1325" TargetName="MT\ Get\ Complex\ IQ\ Component\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1339" TargetName="make_MTwaveform\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1345" TargetName="Upsample\ \(CDB\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1347" TargetName="MT\ Get\ Complex\ IQ\ Component\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1361" TargetName="make_MTwaveform\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1367" TargetName="Upsample\ \(CDB\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1369" TargetName="MT\ Get\ Complex\ IQ\ Component\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="1383" TargetName="make_MTwaveform\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
                 <DataItemCacheInfo CallDirection="Input" CallIndex="0" CallUsage="Recommended" DataType="@2081352814_0" HotSpot="0 35" ListViewHotSpot="0 80" Name="Modulation Parameters In" PreferredDirection="Input" SideIndex="L3">
                     <p.DefaultValue>
                         <Cluster>
@@ -30810,7 +30588,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="476" Name=":Project:PC:receiver_init\ \(SubVI\)\.gvi">
         <DefinitionCacheUserSetting Envoy="476" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AD7430F4" Height="50" ListViewHeight="180" ListViewWidth="150" Name="receiver_init\ \(SubVI\)\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC65696C" Height="50" ListViewHeight="180" ListViewWidth="150" Name="receiver_init\ \(SubVI\)\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -31287,7 +31065,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="478" Name=":Project:PC:reveciver_plot_IQ\ \(SubVI\)\.gvi">
         <DefinitionCacheUserSetting Envoy="478" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AD807983" Height="50" ListViewHeight="105" ListViewWidth="150" Name="reveciver_plot_IQ\ \(SubVI\)\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC662C8F" Height="50" ListViewHeight="105" ListViewWidth="150" Name="reveciver_plot_IQ\ \(SubVI\)\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -31414,7 +31192,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="480" Name=":Project:PC:RXRF_close_MIMO\ \(SubVI\)\.gvi">
         <DefinitionCacheUserSetting Envoy="480" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AD8C0771" Height="50" ListViewHeight="105" ListViewWidth="150" Name="RXRF_close_MIMO\ \(SubVI\)\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC698776" Height="50" ListViewHeight="105" ListViewWidth="150" Name="RXRF_close_MIMO\ \(SubVI\)\.gvi" Width="50" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -31894,7 +31672,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="482" Name=":Project:PC:self_reference_frame_synch\.gvi">
         <DefinitionCacheUserSetting Envoy="482" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AD97BF22" Height="40" ListViewHeight="135" ListViewWidth="150" Name="self_reference_frame_synch\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC69D58C" Height="40" ListViewHeight="135" ListViewWidth="150" Name="self_reference_frame_synch\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -32240,7 +32018,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="1040" Name=":Project:PC:symbol_timing_MIMO\.gviprotected">
         <DefinitionCacheUserSetting Envoy="1040" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024ADD76DEA" Height="40" ListViewHeight="165" ListViewWidth="150" Name="symbol_timing_MIMO\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC762FC0" Height="40" ListViewHeight="165" ListViewWidth="150" Name="symbol_timing_MIMO\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -32641,7 +32419,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="486" Name=":Project:PC:sliding_window\.gvi">
         <DefinitionCacheUserSetting Envoy="486" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024ADACE9B8" Height="40" ListViewHeight="150" ListViewWidth="150" Name="sliding_window\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC6F2BF0" Height="40" ListViewHeight="150" ListViewWidth="150" Name="sliding_window\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -32989,7 +32767,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="490" Name=":Project:PC:strip_control_MIMO\.gvi">
         <DefinitionCacheUserSetting Envoy="490" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024ADC29DFB" Height="40" ListViewHeight="150" ListViewWidth="150" Name="strip_control_MIMO\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC72FBFF" Height="40" ListViewHeight="150" ListViewWidth="150" Name="strip_control_MIMO\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -33335,9 +33113,47 @@
             </DataTypeReferenceTable>
         </DefinitionCacheUserSetting>
     </UserSettingsDefinition>
+    <UserSettingsDefinition Envoy="492" Name=":Project:PC:symbol_energy\.gvi">
+        <DefinitionCacheUserSetting Envoy="492" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC75E1BE" Height="40" ListViewHeight="75" ListViewWidth="150" Name="symbol_energy\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+                <p.IconModel>
+                    <MergeScript xmlns="http://www.ni.com/PlatformFramework">
+                        <MergeFeatureSet>
+                            <SourceModelFeatureSet>
+                                <ParsableNamespace AssemblyFileVersion="3.0.0.56744" FeatureSetName="Editor" MinimumParsableVersion="3.0.0.0" MinimumSemanticallyEquivalentVersion="3.0.0.0" Name="http://www.ni.com/PlatformFramework" Version="3.0.0.49152" />
+                            </SourceModelFeatureSet>
+                        </MergeFeatureSet>
+                        <MergeItem Path="." IsPrimary="True">
+                            <Icon ListViewIconCrop="0 0 40 40">
+                                <IconPanel Height="[float]40" Width="[float]40">
+                                    <IconTemplate ClipMargin="[SMThickness]3,3,3,3" TemplateName="GrayNoText">
+                                        <Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" />
+                                        <Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" />
+                                    </IconTemplate>
+                                    <Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True">
+                                        <Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+                                        <Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff646464" Height="[float]13" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+                                        <Text Font="[SMFont]0,6," Foreground="[SMColor]#ffffffff" Left="[float]2" Text="[string]DigComm" TextWrapping="[TextWrapping]NoWrap" Top="[float]2" />
+                                        <Text Font="[SMFont]0,6," Left="[float]6" Text="[string]Symbol" TextWrapping="[TextWrapping]NoWrap" Top="[float]13" />
+                                        <Text Font="[SMFont]0,6," Left="[float]7" Text="[string]Energy" TextWrapping="[TextWrapping]NoWrap" Top="[float]23" />
+                                    </Canvas>
+                                </IconPanel>
+                            </Icon>
+                        </MergeItem>
+                    </MergeScript>
+                </p.IconModel>
+                <DataItemCacheInfo CallDirection="Input" CallIndex="1" CallUsage="Recommended" DataType="ComplexDouble[]" HotSpot="0 5" ListViewHotSpot="0 35" Name="input symbols" PreferredDirection="Input" SideIndex="L0" />
+                <DataItemCacheInfo CallDirection="Input" CallIndex="2" CallUsage="Recommended" DataType="Double" HotSpot="0 25" ListViewHotSpot="0 50" Name="Symbol Energy (1)" PreferredDirection="Input" SideIndex="L2">
+                    <p.DefaultValue>0x3FF0000000000000</p.DefaultValue>
+                </DataItemCacheInfo>
+                <DataItemCacheInfo CallDirection="Output" CallIndex="1" CallUsage="Recommended" DataType="ComplexDouble[]" HotSpot="40 5" ListViewHotSpot="150 65" Name="output symbols" PreferredDirection="Output" SideIndex="R0" />
+                <CachedQualifiedDependency SourceId="72" TargetName="Mean\ \(DBL\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+            </FunctionSignatureCache>
+        </DefinitionCacheUserSetting>
+    </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="1049" Name=":Project:PC:moose\.gviprotected">
         <DefinitionCacheUserSetting Envoy="1049" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AD3BD7C6" Height="40" ListViewHeight="105" ListViewWidth="150" Name="moose\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC608810" Height="40" ListViewHeight="105" ListViewWidth="150" Name="moose\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -33627,47 +33443,9 @@
             </DataTypeReferenceTable>
         </DefinitionCacheUserSetting>
     </UserSettingsDefinition>
-    <UserSettingsDefinition Envoy="492" Name=":Project:PC:symbol_energy\.gvi">
-        <DefinitionCacheUserSetting Envoy="492" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024ADCC5BA4" Height="40" ListViewHeight="75" ListViewWidth="150" Name="symbol_energy\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
-                <p.IconModel>
-                    <MergeScript xmlns="http://www.ni.com/PlatformFramework">
-                        <MergeFeatureSet>
-                            <SourceModelFeatureSet>
-                                <ParsableNamespace AssemblyFileVersion="3.0.0.56744" FeatureSetName="Editor" MinimumParsableVersion="3.0.0.0" MinimumSemanticallyEquivalentVersion="3.0.0.0" Name="http://www.ni.com/PlatformFramework" Version="3.0.0.49152" />
-                            </SourceModelFeatureSet>
-                        </MergeFeatureSet>
-                        <MergeItem Path="." IsPrimary="True">
-                            <Icon ListViewIconCrop="0 0 40 40">
-                                <IconPanel Height="[float]40" Width="[float]40">
-                                    <IconTemplate ClipMargin="[SMThickness]3,3,3,3" TemplateName="GrayNoText">
-                                        <Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" />
-                                        <Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" />
-                                    </IconTemplate>
-                                    <Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True">
-                                        <Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
-                                        <Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff646464" Height="[float]13" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
-                                        <Text Font="[SMFont]0,6," Foreground="[SMColor]#ffffffff" Left="[float]2" Text="[string]DigComm" TextWrapping="[TextWrapping]NoWrap" Top="[float]2" />
-                                        <Text Font="[SMFont]0,6," Left="[float]6" Text="[string]Symbol" TextWrapping="[TextWrapping]NoWrap" Top="[float]13" />
-                                        <Text Font="[SMFont]0,6," Left="[float]7" Text="[string]Energy" TextWrapping="[TextWrapping]NoWrap" Top="[float]23" />
-                                    </Canvas>
-                                </IconPanel>
-                            </Icon>
-                        </MergeItem>
-                    </MergeScript>
-                </p.IconModel>
-                <DataItemCacheInfo CallDirection="Input" CallIndex="1" CallUsage="Recommended" DataType="ComplexDouble[]" HotSpot="0 5" ListViewHotSpot="0 35" Name="input symbols" PreferredDirection="Input" SideIndex="L0" />
-                <DataItemCacheInfo CallDirection="Input" CallIndex="2" CallUsage="Recommended" DataType="Double" HotSpot="0 25" ListViewHotSpot="0 50" Name="Symbol Energy (1)" PreferredDirection="Input" SideIndex="L2">
-                    <p.DefaultValue>0x3FF0000000000000</p.DefaultValue>
-                </DataItemCacheInfo>
-                <DataItemCacheInfo CallDirection="Output" CallIndex="1" CallUsage="Recommended" DataType="ComplexDouble[]" HotSpot="40 5" ListViewHotSpot="150 65" Name="output symbols" PreferredDirection="Output" SideIndex="R0" />
-                <CachedQualifiedDependency SourceId="72" TargetName="Mean\ \(DBL\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-            </FunctionSignatureCache>
-        </DefinitionCacheUserSetting>
-    </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="496" Name=":Project:PC:synchronize_MIMO\.gvi">
         <DefinitionCacheUserSetting Envoy="496" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024ADE36290" Height="40" ListViewHeight="270" ListViewWidth="150" Name="synchronize_MIMO\.gvi" Width="60" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC78C798" Height="40" ListViewHeight="270" ListViewWidth="150" Name="synchronize_MIMO\.gvi" Width="60" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -34104,7 +33882,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="498" Name=":Project:PC:timing\ sync\ and\ channel\ est\.gvi">
         <DefinitionCacheUserSetting Envoy="498" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024ADEF9896" Height="40" ListViewHeight="135" ListViewWidth="150" Name="timing\ sync\ and\ channel\ est\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC793C95" Height="40" ListViewHeight="135" ListViewWidth="150" Name="timing\ sync\ and\ channel\ est\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -34500,7 +34278,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="502" Name=":Project:PC:transmitter_enque\ \(SubVI\)\.gvi">
         <DefinitionCacheUserSetting Envoy="502" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AE05B7E2" Height="40" ListViewHeight="105" ListViewWidth="150" Name="transmitter_enque\ \(SubVI\)\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC7DA8C6" Height="40" ListViewHeight="105" ListViewWidth="150" Name="transmitter_enque\ \(SubVI\)\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -34631,7 +34409,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="504" Name=":Project:PC:transmitter_generate_waveforms\ \(SubVI\)\.gvi">
         <DefinitionCacheUserSetting Envoy="504" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AE108E9E" Height="40" ListViewHeight="135" ListViewWidth="150" Name="transmitter_generate_waveforms\ \(SubVI\)\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC82FF24" Height="40" ListViewHeight="135" ListViewWidth="150" Name="transmitter_generate_waveforms\ \(SubVI\)\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -34817,7 +34595,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="506" Name=":Project:PC:transmitter_init\ \(SubVI\)\.gvi">
         <DefinitionCacheUserSetting Envoy="506" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AE1C2549" Height="40" ListViewHeight="75" ListViewWidth="150" Name="transmitter_init\ \(SubVI\)\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC80B588" Height="40" ListViewHeight="75" ListViewWidth="150" Name="transmitter_init\ \(SubVI\)\.gvi" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -34999,7 +34777,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="1076" Name=":Project:PC:decode\.gviprotected">
         <DefinitionCacheUserSetting Envoy="1076" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024ACACB152" Height="40" ListViewHeight="120" ListViewWidth="150" Name="decode\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC4F738C" Height="40" ListViewHeight="120" ListViewWidth="150" Name="decode\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -35347,7 +35125,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="1085" Name=":Project:PC:Alamouti_RX\.gviprotected">
         <DefinitionCacheUserSetting Envoy="1085" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AC5BD466" Height="40" ListViewHeight="150" ListViewWidth="150" Name="Alamouti_RX\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC458A07" Height="40" ListViewHeight="150" ListViewWidth="150" Name="Alamouti_RX\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
@@ -35373,10 +35151,6 @@
                         </MergeItem>
                     </MergeScript>
                 </p.IconModel>
-                <CachedQualifiedDependency SourceId="909" TargetName="Complex\ A\ x\ Vector\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="894" TargetName="Complex\ Pseudoinverse\ Matrix\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="909" TargetName="Complex\ A\ x\ Vector\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-                <CachedQualifiedDependency SourceId="894" TargetName="Complex\ Pseudoinverse\ Matrix\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
                 <DataItemCacheInfo CallDirection="Input" CallIndex="0" CallUsage="Recommended" DataType="@2081352814_0" HotSpot="0 25" ListViewHotSpot="0 110" Name="Modulation Parameters In" PreferredDirection="Input" SideIndex="L2">
                     <p.DefaultValue>
                         <Cluster>
@@ -35816,7 +35590,7 @@
     </UserSettingsDefinition>
     <UserSettingsDefinition Envoy="1104" Name=":Project:PC:mmse_linear\.gviprotected">
         <DefinitionCacheUserSetting Envoy="1104" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-            <FunctionSignatureCache CacheSignature="1D69024AD24D7D0" Height="40" ListViewHeight="105" ListViewWidth="150" Name="mmse_linear\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
+            <FunctionSignatureCache CacheSignature="1D69BB6AC5DC956" Height="40" ListViewHeight="105" ListViewWidth="150" Name="mmse_linear\.gviprotected" Width="40" xmlns="http://www.ni.com/LabVIEW.VI">
                 <p.IconModel>
                     <MergeScript xmlns="http://www.ni.com/PlatformFramework">
                         <MergeFeatureSet>
