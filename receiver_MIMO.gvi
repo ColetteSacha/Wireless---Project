@@ -595,24 +595,10 @@
                     </DataAccessor>
                     <TextNode AttachedTo="1881" Bounds="1330 295 120 16" Id="1882" Text="Received Constellation" xmlns="http://www.ni.com/PlatformFramework" />
                     <Wire Id="1901" Joints="N(625:R4) h(5) v(50) N(1881:Value)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <MethodCall Bounds="45 285 40 40" Id="1944" Target="Training_sequence_preprocessing\.gviprotected">
-                        <p.MethodDeclaration>
-                            <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
-                                <Parameter Id="L0" Desc="Training Sequences in" />
-                                <Parameter Id="L3" Desc="error in (no error)" />
-                                <Parameter Id="R0" Desc="Training Sequences out" />
-                                <Parameter Id="R3" Desc="error out" />
-                            </MethodDeclaration>
-                        </p.MethodDeclaration>
-                        <Terminal DataType="@-2013166653_0" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
-                        <Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-                        <Terminal DataType="@-1309552882_0" Direction="Output" Hotspot="40 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-                        <Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-                    </MethodCall>
-                    <Wire Id="1945" Joints="N(1667:22) N(1944:L0)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Wire Id="1946" Joints="N(1944:R0) N(558:L3)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Wire Id="1948" Joints="N(24:22) h(31) v(-45) N(1944:L3)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Wire Id="1950" Joints="N(1944:R3) h(70) v(-20) N(558:L4)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1945" Joints="N(1667:22) N(1976:L0)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1946" Joints="N(1976:R0) N(558:L3)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1948" Joints="N(24:22) h(31) v(-35) h(5) N(1976:L3)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1950" Joints="N(1976:R3) h(75) v(-20) N(558:L4)" xmlns="http://www.ni.com/PlatformFramework" />
                     <Wire Id="1973" Joints="N(1875:R0) h(85) B(1) h(30) N(1975:T0) B(1) v(340) N(1685:L1)" xmlns="http://www.ni.com/PlatformFramework" />
                     <MethodCall Bounds="800 265 40 40" Id="1975" Target="Alamouti_RX_student\.gvi">
                         <p.MethodDeclaration>
@@ -634,6 +620,20 @@
                         <Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
                         <Terminal DataType="ComplexDouble[]" Direction="Output" Hotspot="40 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
                         <Terminal DataType="@2081352814_0" Direction="Output" Hotspot="40 25" Id="R2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                    </MethodCall>
+                    <MethodCall Bounds="40 285 40 40" Id="1976" Target="Training\ sequence\ preprocessing_student\.gvi">
+                        <p.MethodDeclaration>
+                            <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+                                <Parameter Id="L3" Desc="error in (no error)" />
+                                <Parameter Id="L0" Desc="Training Sequences in" />
+                                <Parameter Id="R0" Desc="Training Sequences out" />
+                                <Parameter Id="R3" Desc="error out" />
+                            </MethodDeclaration>
+                        </p.MethodDeclaration>
+                        <Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="@-2013166653_0" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="@-2013166653_0" Direction="Output" Hotspot="40 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
                         <Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
                     </MethodCall>
                 </CaseStructure.Case>
@@ -2329,38 +2329,6 @@
                         </Class>
                     </DereferenceType>
                 </VariableArray>
-            </p.TypeReference>
-            <p.TypeReference TypeId="-1309552882_0">
-                <Class Id="1" Name="" Cluster="">
-                    <ClosedGenericParameters />
-                    <GenericTypeDefinition>
-                        <Void />
-                    </GenericTypeDefinition>
-                    <BaseType>
-                        <Void />
-                    </BaseType>
-                    <Interfaces />
-                    <Members>
-                        <Field FieldAccessPolicy="ReadWrite" Name="Traning sequence 1 ">
-                            <DataType>
-                                <VariableArray>
-                                    <DereferenceType>
-                                        <ComplexDouble />
-                                    </DereferenceType>
-                                </VariableArray>
-                            </DataType>
-                        </Field>
-                        <Field FieldAccessPolicy="ReadWrite" Name="Training sequence 2">
-                            <DataType>
-                                <VariableArray>
-                                    <DereferenceType>
-                                        <ComplexDouble />
-                                    </DereferenceType>
-                                </VariableArray>
-                            </DataType>
-                        </Field>
-                    </Members>
-                </Class>
             </p.TypeReference>
             <p.TypeReference TypeId="1744032881_0">
                 <Class Id="1" Name="" Cluster="">

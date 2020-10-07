@@ -302,23 +302,9 @@
                         <Terminal DataType="Double[]" Direction="Output" Hotspot="40 35" Id="R3" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
                         <Terminal DataType="Error" Direction="Output" Hotspot="25 40" Id="B1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
                     </MethodCall>
-                    <Wire Id="9072" Joints="N(9073:21) N(9078:L0)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Wire Id="9076" Joints="N(9168:R3) h(5) v(50) N(9078:L3)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Wire Id="9077" Joints="N(9078:R3) h(12) v(-50) N(9082:L3)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <MethodCall Bounds="398 460 40 40" Id="9078" Target="Training_sequence_preprocessing\.gviprotected">
-                        <p.MethodDeclaration>
-                            <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
-                                <Parameter Id="L0" Desc="Training Sequences in" />
-                                <Parameter Id="L3" Desc="error in (no error)" />
-                                <Parameter Id="R0" Desc="Training Sequences out" />
-                                <Parameter Id="R3" Desc="error out" />
-                            </MethodDeclaration>
-                        </p.MethodDeclaration>
-                        <Terminal DataType="@-2013166653_0" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
-                        <Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-                        <Terminal DataType="@-1309552882_0" Direction="Output" Hotspot="40 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-                        <Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-                    </MethodCall>
+                    <Wire Id="9072" Joints="N(9073:21) N(9169:L0)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="9076" Joints="N(9168:R3) h(5) v(10) h(-30) v(40) N(9169:L3)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="9077" Joints="N(9169:R3) h(42) v(-50) N(9082:L3)" xmlns="http://www.ni.com/PlatformFramework" />
                     <MethodCall Bounds="468 410 40 40" Id="9082" Target="add_control_MIMO\.gviprotected">
                         <p.MethodDeclaration>
                             <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
@@ -387,7 +373,7 @@
                     <Reciprocal Bounds="853 365 30 30" Id="9163" />
                     <Wire Id="9164" Joints="N(9162:c0t0v) h(7) v(20) N(9163:x)" xmlns="http://www.ni.com/PlatformFramework" />
                     <Wire Id="9165" Joints="N(9163:1/x) h(7) B(1) h(18) v(5) N(9148:L1) B(1) v(65) N(9149:L1)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Wire Id="9167" Joints="N(9078:R0) h(25) v(-70) h(20) N(9082:T0)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="9167" Joints="N(9169:R0) h(55) v(-70) h(20) N(9082:T0)" xmlns="http://www.ni.com/PlatformFramework" />
                     <MethodCall Bounds="343 410 40 40" Id="9168" Target="Alamouti_TX_student\.gvi">
                         <p.MethodDeclaration>
                             <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
@@ -406,6 +392,20 @@
                         <Terminal DataType="@384786743_0" Direction="Output" Hotspot="40 25" Id="R2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
                         <Terminal DataType="ComplexDouble[]" Direction="Output" Hotspot="40 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
                         <Terminal DataType="ComplexDouble[]" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                    </MethodCall>
+                    <MethodCall Bounds="368 460 40 40" Id="9169" Target="Training\ sequence\ preprocessing_student\.gvi">
+                        <p.MethodDeclaration>
+                            <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+                                <Parameter Id="L3" Desc="error in (no error)" />
+                                <Parameter Id="L0" Desc="Training Sequences in" />
+                                <Parameter Id="R0" Desc="Training Sequences out" />
+                                <Parameter Id="R3" Desc="error out" />
+                            </MethodDeclaration>
+                        </p.MethodDeclaration>
+                        <Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="@-2013166653_0" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="@-2013166653_0" Direction="Output" Hotspot="40 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
                         <Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
                     </MethodCall>
                 </CaseStructure.Case>
@@ -479,7 +479,7 @@
                 <Label Id="137" LabelOwner="[UIModel]136" Left="[float]5" Locked="[bool]True" Text="[string]source" Top="[float]52" />
             </Cluster>
             <Label Id="138" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]131" Left="[float]234" Locked="[bool]True" Text="[string]error out" Top="[float]306" />
-            <ArrayViewer ArrayElement="[UIModel]238" BaseName="[string]Array" Columns="[int]9" Dimensions="[int]1" Height="[float]36" Id="237" IsFixedSize="[bool]False" Label="[UIModel]239" Left="[float]86" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]160" Value="{DataItemBinding Id=112}" Width="[float]400" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+            <ArrayViewer ArrayElement="[UIModel]238" BaseName="[string]Array" Columns="[int]9" Dimensions="[int]1" Height="[float]37" Id="237" IsFixedSize="[bool]False" Label="[UIModel]239" Left="[float]86" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]160" Value="{DataItemBinding Id=112}" Width="[float]400" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
                 <p.DefaultElementValue>0</p.DefaultElementValue>
                 <NumericText BaseName="[string]Numeric" Height="[float]22" Id="238" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]205" Name="[string]Child" Top="[float]31" Value="[sbyte]0" ValueType="[Type]Int8" Width="[float]36" />
             </ArrayViewer>
@@ -6514,38 +6514,6 @@
                                         </Field>
                                     </Members>
                                 </Class>
-                            </DataType>
-                        </Field>
-                    </Members>
-                </Class>
-            </p.TypeReference>
-            <p.TypeReference TypeId="-1309552882_0">
-                <Class Id="1" Name="" Cluster="">
-                    <ClosedGenericParameters />
-                    <GenericTypeDefinition>
-                        <Void />
-                    </GenericTypeDefinition>
-                    <BaseType>
-                        <Void />
-                    </BaseType>
-                    <Interfaces />
-                    <Members>
-                        <Field FieldAccessPolicy="ReadWrite" Name="Traning sequence 1 ">
-                            <DataType>
-                                <VariableArray>
-                                    <DereferenceType>
-                                        <ComplexDouble />
-                                    </DereferenceType>
-                                </VariableArray>
-                            </DataType>
-                        </Field>
-                        <Field FieldAccessPolicy="ReadWrite" Name="Training sequence 2">
-                            <DataType>
-                                <VariableArray>
-                                    <DereferenceType>
-                                        <ComplexDouble />
-                                    </DereferenceType>
-                                </VariableArray>
                             </DataType>
                         </Field>
                     </Members>
