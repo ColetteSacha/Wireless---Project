@@ -15,7 +15,7 @@
                 <Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Id="232">
                     <Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Id="338" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
                     <Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff646464" Height="[float]13" Id="339" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
-                    <Text Font="[SMFont]0,6," Foreground="[SMColor]#ffffffff" Id="340" Left="[float]2" Text="[string]   MIMO" TextWrapping="[TextWrapping]NoWrap" Top="[float]1" />
+                    <Text Font="[SMFont]0,6," Foreground="[SMColor]#ffffffff" Id="340" Left="[float]2" Text="[string]   Student" TextWrapping="[TextWrapping]NoWrap" Top="[float]1" />
                     <Text Font="[SMFont]0,6," Id="341" Left="[float]8" Text="[string]Sliding" TextWrapping="[TextWrapping]NoWrap" Top="[float]14" />
                     <Text Font="[SMFont]0,6," Id="342" Left="[float]12" Text="[string]Corr" TextWrapping="[TextWrapping]NoWrap" Top="[float]24" />
                 </Canvas>
@@ -42,64 +42,73 @@
             <DataAccessor Bounds="-235 930 40 15" DataItem="114" Id="115" Label="179">
                 <Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
             </DataAccessor>
-            <DataAccessor Bounds="640 765 40 15" DataItem="135" Id="136" Label="183">
+            <DataAccessor Bounds="630 930 40 15" DataItem="135" Id="136" Label="183">
                 <Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
             </DataAccessor>
             <DataAccessor Bounds="-200 645 40 15" DataItem="14" Id="15" Label="177">
                 <Terminal DataType="@1785820191_0" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
             </DataAccessor>
             <TextNode AttachedTo="115" Bounds="-333 930 93 16" Id="179" Text="error in (no error)" xmlns="http://www.ni.com/PlatformFramework" />
-            <TextNode AttachedTo="136" Bounds="685 765 47 16" Id="183" Text="error out" xmlns="http://www.ni.com/PlatformFramework" />
+            <TextNode AttachedTo="136" Bounds="675 930 47 16" Id="183" Text="error out" xmlns="http://www.ni.com/PlatformFramework" />
             <TextNode AttachedTo="15" Bounds="-341 645 136 16" Id="177" Text="Input Complex Waveform" xmlns="http://www.ni.com/PlatformFramework" />
-            <CaseStructure Bounds="-150 575 735 375" DataType="Error" Id="184" Selected="185" UserSelectorBounds="317.6 0 100.8 16.8">
-                <CaseStructure.Case Bounds="5 5 725 365" Id="185" Pattern="No Error">
-                    <PropertyNode Bounds="50 60 150 75" HasErrorTerminals="False" Id="806" InstanceDataType="@1785820191_0" Template="List" Terminals="instance in=807~0:5, instance out~150:5, c0t0v~150:35, c1t0v~150:50, c2t0v~150:65" VerticalChunkCount="3">
-                        <p.PropertyItem IsWrite="False">
-                            <PathElement>t0</PathElement>
-                        </p.PropertyItem>
-                        <p.PropertyItem IsWrite="False">
-                            <PathElement>dt</PathElement>
-                        </p.PropertyItem>
-                        <p.PropertyItem IsWrite="False">
-                            <PathElement>Y</PathElement>
-                        </p.PropertyItem>
-                    </PropertyNode>
-                    <Wire Id="807" Joints="N(808:185) N(806:instance in)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Wire Id="811" Joints="N(812:185) h(26) v(-35) h(50) v(-5) N(814:instance in)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <PropertyNode Bounds="100 220 150 60" HasErrorTerminals="False" Id="814" InstanceDataType="@2081352814_0" Template="List" Terminals="instance in=811~0:5, instance out~150:5, c0t0v~150:35, c1t0v~150:50" VerticalChunkCount="2">
-                        <p.PropertyItem IsWrite="False">
-                            <PathElement>Modulation Type</PathElement>
-                        </p.PropertyItem>
-                        <p.PropertyItem IsWrite="False">
-                            <PathElement>Control Information
-for Packet Header/Tail</PathElement>
-                        </p.PropertyItem>
-                    </PropertyNode>
+            <CaseStructure Bounds="-150 575 735 610" DataType="Error" Id="184" Selected="185" UserSelectorBounds="317.6 0 100.8 16.8">
+                <CaseStructure.Case Bounds="5 5 725 600" Id="185" Pattern="No Error">
+                    <Wire Id="807" Joints="N(808:185) N(815:L0)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <MethodCall Bounds="280 60 40 40" Id="815" Target="student_sliding_correlator\.gvi">
+                        <p.MethodDeclaration>
+                            <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+                                <Parameter Id="L2" Desc="Modulation Parameters In" />
+                                <Parameter Id="L0" Desc="Input Complex Waveform" />
+                                <Parameter Id="L3" Desc="error in (no error)" />
+                                <Parameter Id="R0" Desc="Output" />
+                                <Parameter Id="R1" Desc="Frame Offset" />
+                                <Parameter Id="R2" Desc="Frequency Offset" />
+                                <Parameter Id="R3" Desc="error out" />
+                            </MethodDeclaration>
+                        </p.MethodDeclaration>
+                        <Terminal DataType="@2081352814_0" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="@1785820191_0" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="ComplexDouble[]" Direction="Output" Hotspot="40 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="Int32" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="Double" Direction="Output" Hotspot="40 25" Id="R2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                    </MethodCall>
+                    <DataAccessor Bounds="555 60 40 15" DataItem="126" Id="127" Label="180">
+                        <Terminal DataType="ComplexDouble[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+                    </DataAccessor>
+                    <TextNode AttachedTo="127" Bounds="600 60 38 16" Id="180" Text="Output" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="831" Joints="N(815:R0) N(127:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="833" Joints="N(812:185) h(5) v(-50) h(41) v(-130) N(815:L2)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="835" Joints="N(187:185) h(271) v(-260) N(815:L3)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="836" Joints="N(815:R3) h(5) v(300) N(837:185)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <DataAccessor Bounds="375 155 40 15" DataItem="129" Id="130" Label="181">
+                        <Terminal DataType="Int32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+                    </DataAccessor>
+                    <TextNode AttachedTo="130" Bounds="420 155 69 16" Id="181" Text="Frame Offset" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="840" Joints="N(815:R1) h(50) v(85) N(130:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <DataAccessor Bounds="380 195 40 15" DataItem="132" Id="133" Label="182">
+                        <Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+                    </DataAccessor>
+                    <TextNode AttachedTo="133" Bounds="425 195 90 16" Id="182" Text="Frequency Offset" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="841" Joints="N(815:R2) h(10) v(115) N(133:Value)" xmlns="http://www.ni.com/PlatformFramework" />
                 </CaseStructure.Case>
-                <CaseStructure.Case Bounds="5 5 725 365" Id="186" Pattern="Error" />
-                <CaseStructure.Selector Bounds="-4 355 13 15" Docking="Left" Id="187" Terminals="184=805, 185, 186" />
+                <CaseStructure.Case Bounds="5 5 725 600" Id="186" Pattern="Error">
+                    <Wire Id="839" Joints="N(187:186) h(712) v(40) N(837:186)" xmlns="http://www.ni.com/PlatformFramework" />
+                </CaseStructure.Case>
+                <CaseStructure.Selector Bounds="-4 355 13 15" Docking="Left" Id="187" Terminals="184=805, 185=835, 186=839" />
                 <CaseStructure.Tunnel Bounds="-4 65 13 10" Docking="Left" Id="808" Terminals="184=809, 185=807, 186" />
-                <CaseStructure.Tunnel Bounds="-4 265 13 10" Docking="Left" Id="812" Terminals="184=813, 185=811, 186" />
+                <CaseStructure.Tunnel Bounds="-4 265 13 10" Docking="Left" Id="812" Terminals="184=813, 185=833, 186" />
+                <CaseStructure.Tunnel Bounds="726 395 13 10" Docking="Right" Id="837" Terminals="184=838, 185=836, 186=839" />
             </CaseStructure>
             <DataAccessor Bounds="-200 840 40 15" DataItem="578" Id="579" Label="580">
                 <Terminal DataType="@2081352814_0" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
             </DataAccessor>
             <TextNode AttachedTo="579" Bounds="-342 840 137 16" Id="580" Text="Modulation Parameters In" xmlns="http://www.ni.com/PlatformFramework" />
-            <DataAccessor Bounds="640 685 40 15" DataItem="126" Id="127" Label="180">
-                <Terminal DataType="ComplexDouble[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-            </DataAccessor>
-            <TextNode AttachedTo="127" Bounds="685 685 38 16" Id="180" Text="Output" xmlns="http://www.ni.com/PlatformFramework" />
-            <DataAccessor Bounds="640 710 40 15" DataItem="132" Id="133" Label="182">
-                <Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-            </DataAccessor>
-            <TextNode AttachedTo="133" Bounds="685 710 90 16" Id="182" Text="Frequency Offset" xmlns="http://www.ni.com/PlatformFramework" />
-            <DataAccessor Bounds="640 735 40 15" DataItem="129" Id="130" Label="181">
-                <Terminal DataType="Int32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-            </DataAccessor>
-            <TextNode AttachedTo="130" Bounds="685 735 69 16" Id="181" Text="Frame Offset" xmlns="http://www.ni.com/PlatformFramework" />
             <Wire Id="805" Joints="N(115:Value) N(187:184)" xmlns="http://www.ni.com/PlatformFramework" />
             <Wire Id="809" Joints="N(15:Value) h(1) v(-5) N(808:184)" xmlns="http://www.ni.com/PlatformFramework" />
             <Wire Id="813" Joints="N(579:Value) N(812:184)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="838" Joints="N(837:184) h(6) v(-40) N(136:Value)" xmlns="http://www.ni.com/PlatformFramework" />
         </BlockDiagram>
         <CPFrontPanel Height="[float]1600" Id="13" Width="[float]2000">
             <Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@1785820191_0" Height="[float]162" Id="16" Label="[UIModel]144" Left="[float]170" Top="[float]98" Value="{DataItemBinding Id=14}" Width="[float]152">
