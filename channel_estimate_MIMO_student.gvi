@@ -73,14 +73,14 @@
             <DataAccessor Bounds="-1210 1260 40 15" DataItem="105" Id="106" Label="276">
                 <Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
             </DataAccessor>
-            <DataAccessor Bounds="85 860 40 15" DataItem="208" Id="209" Label="280">
+            <DataAccessor Bounds="665 1340 40 15" DataItem="208" Id="209" Label="280">
                 <Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
             </DataAccessor>
             <TextNode AttachedTo="106" Bounds="-1308 1260 93 16" Id="276" Text="error in (no error)" xmlns="http://www.ni.com/PlatformFramework" />
-            <TextNode AttachedTo="209" Bounds="130 860 47 16" Id="280" Text="error out" xmlns="http://www.ni.com/PlatformFramework" />
-            <CaseStructure Bounds="-1000 650 1054 630" DataType="Error" Id="282" Selected="283" UserSelectorBounds="476.8 0 100.8 16.8">
-                <CaseStructure.Case Bounds="5 5 1044 620" Id="283" Pattern="No Error">
-                    <PropertyNode Bounds="30 85 150 75" HasErrorTerminals="False" Id="1300" InstanceDataType="@2081352814_0" Template="List" Terminals="instance in=1301~0:5, instance out~150:5, c0t0v=1309~150:50, c1t0v=1342~150:65, c2t0v=1307~150:35" VerticalChunkCount="3">
+            <TextNode AttachedTo="209" Bounds="710 1340 47 16" Id="280" Text="error out" xmlns="http://www.ni.com/PlatformFramework" />
+            <CaseStructure Bounds="-1000 650 1655 1105" DataType="Error" Id="282" Selected="283" UserSelectorBounds="777.6 0 100.8 16.8">
+                <CaseStructure.Case Bounds="5 5 1645 1095" Id="283" Pattern="No Error">
+                    <PropertyNode Bounds="30 85 150 75" HasErrorTerminals="False" Id="1300" InstanceDataType="@2081352814_0" Template="List" Terminals="instance in=1301~0:5, instance out~150:5, c0t0v=1406~150:50, c1t0v=1430~150:65, c2t0v=1307~150:35" VerticalChunkCount="3">
                         <p.PropertyItem IsWrite="False">
                             <PathElement>Control Information
 for Packet Header/Tail</PathElement>
@@ -97,40 +97,29 @@ for Packet Header/Tail</PathElement>
                         </p.PropertyItem>
                     </PropertyNode>
                     <Wire Id="1301" Joints="N(1302:283) N(1300:instance in)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Decrement Bounds="250 105 30 30" Id="1304" />
-                    <Comment Bounds="220 90 40 28.8" Id="1306" xmlns="http://www.ni.com/MocCommon">
+                    <Decrement Bounds="455 105 30 30" Id="1304" />
+                    <Comment Bounds="350 90 40 28.8" Id="1306" xmlns="http://www.ni.com/MocCommon">
                         <p.Text>L+1</p.Text>
                     </Comment>
-                    <Wire Id="1307" Joints="N(1300:c2t0v) N(1304:x)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <ArraySize Bounds="245 150 40 20" Id="1308" />
-                    <Wire Id="1309" Joints="N(1300:c0t0v) h(35) B(1) h(10) B(2) h(15) v(20) N(1308:array) B(2) v(45) N(1319:array) B(1) v(-55) N(1310:array)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <ArraySubset Bounds="345 75 40 40" Id="1310" Terminals="array=1309, subarray=1317, index0=1314, length0=1315" />
-                    <Literal Bounds="295 100 39.2 16" DataType="Int32" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="1312" Label="1313" xmlns="http://www.ni.com/MocCommon">
+                    <Wire Id="1307" Joints="N(1300:c2t0v) h(5) B(1) N(1304:x) B(1) v(45) h(-75) v(450) N(1467:x)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <ArraySubset Bounds="550 75 40 40" Id="1310" Terminals="array=1392, subarray=1317, index0=1314, length0=1477" />
+                    <Literal Bounds="500 100 39.2 16" DataType="Int32" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="1312" Label="1313" xmlns="http://www.ni.com/MocCommon">
                         <p.Data>0</p.Data>
                         <NumericBehavior Interpretation="Exact" ValueFormatter="LV:" />
                     </Literal>
                     <Wire Id="1314" Joints="N(1312:Out) h(5) v(-5) N(1310:index0)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <TextNode AttachedTo="1312" Bounds="295 100 0 0" Id="1313" Text="index" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Wire Id="1315" Joints="N(1304:x-1) h(5) B(1) h(35) B(2) h(15) B(3) h(5) v(-10) N(1310:length0) B(3) v(80) h(65) B(8) N(1319:index0) B(8) v(135) h(40) v(175) B(12) N(1351:index0) B(12) v(70) N(1354:y) B(2) v(115) N(1321:y) B(1) v(130) h(78) v(210) N(1343:length0)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Reverse1DArray Bounds="420 75 40 20" Id="1316" />
+                    <TextNode AttachedTo="1312" Bounds="500 100 0 0" Id="1313" Text="index" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Reverse1DArray Bounds="625 75 40 20" Id="1316" />
                     <Wire Id="1317" Joints="N(1310:subarray) N(1316:array)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Comment Bounds="460 45 44.8 28.8" Id="1318" xmlns="http://www.ni.com/MocCommon">
+                    <Comment Bounds="665 45 44.8 28.8" Id="1318" xmlns="http://www.ni.com/MocCommon">
                         <p.Text>ligne</p.Text>
                     </Comment>
-                    <ArraySubset Bounds="425 175 40 40" Id="1319" Terminals="array=1309, subarray=1333, index0=1315, length0=1325" />
-                    <Subtract Bounds="345 215 30 30" Id="1321" />
-                    <Wire Id="1322" Joints="N(1308:size(s\)) h(28) v(55) N(1321:x)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Comment Bounds="285 130 32.8 28.8" Id="1323" xmlns="http://www.ni.com/MocCommon">
-                        <p.Text>Nt</p.Text>
-                    </Comment>
-                    <Wire Id="1325" Joints="N(1321:x-y) h(5) v(-20) N(1319:length0)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Comment Bounds="230 140 32.8 28.8" Id="1326" xmlns="http://www.ni.com/MocCommon">
-                        <p.Text>t</p.Text>
-                    </Comment>
-                    <Comment Bounds="460 145 60.8 28.8" Id="1327" xmlns="http://www.ni.com/MocCommon">
+                    <ArraySubset Bounds="630 175 40 40" Id="1319" Terminals="array=1392, subarray=1333, index0=1477, length0=1482" />
+                    <Subtract Bounds="550 215 30 30" Id="1321" />
+                    <Comment Bounds="665 145 60.8 28.8" Id="1327" xmlns="http://www.ni.com/MocCommon">
                         <p.Text>colonne</p.Text>
                     </Comment>
-                    <MethodCall Bounds="615 100 40 40" Id="1328" Target="student_toeplitz\.gvi">
+                    <MethodCall Bounds="820 100 40 40" Id="1328" Target="student_toeplitz\.gvi">
                         <p.MethodDeclaration>
                             <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
                                 <Parameter Id="L0" Desc="Row" />
@@ -144,10 +133,10 @@ for Packet Header/Tail</PathElement>
                     </MethodCall>
                     <Wire Id="1329" Joints="N(1316:reversed array) h(5) v(25) N(1328:L0)" xmlns="http://www.ni.com/PlatformFramework" />
                     <Wire Id="1333" Joints="N(1319:subarray) h(143) v(-65) N(1328:L1)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Comment Bounds="650 65 64 28.8" Id="1334" xmlns="http://www.ni.com/MocCommon">
+                    <Comment Bounds="770 65 64 28.8" Id="1334" xmlns="http://www.ni.com/MocCommon">
                         <p.Text>matrix T</p.Text>
                     </Comment>
-                    <MethodCall Bounds="740 100 40 40" Id="1335" Target="student_LLSE\.gvi">
+                    <MethodCall Bounds="980 105 40 40" Id="1335" Target="student_LLSE\.gvi">
                         <p.MethodDeclaration>
                             <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
                                 <Parameter Id="L0" Desc="A" />
@@ -156,32 +145,102 @@ for Packet Header/Tail</PathElement>
                                 <Parameter Id="R1" Desc="mean square error" />
                             </MethodDeclaration>
                         </p.MethodDeclaration>
-                        <Terminal DataType="ComplexDouble[,]" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-                        <Terminal DataType="ComplexDouble[]" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="ComplexDouble[,]" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="ComplexDouble[]" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
                         <Terminal DataType="ComplexDouble[]" Direction="Output" Hotspot="40 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
                         <Terminal DataType="Double" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
                     </MethodCall>
-                    <Wire Id="1336" Joints="N(1328:R0) h(35) B(1) N(1335:L0) B(1) v(40) h(90) v(135) N(1369:L0)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Wire Id="1337" Joints="N(1338:283) h(26) v(95) h(670) B(3) h(35) v(-165) N(1335:L2) B(3) v(75) N(1374:L2)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Comment Bounds="805 105 166.4 28.8" Id="1340" xmlns="http://www.ni.com/MocCommon">
-                        <p.Text>estimate of the channel 11</p.Text>
+                    <Comment Bounds="1020 70 166.4 28.8" Id="1340" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>estimate of the channel h0</p.Text>
                     </Comment>
-                    <ArraySize Bounds="245 530 40 20" Id="1341" />
-                    <Wire Id="1342" Joints="N(1300:c1t0v) h(7) v(280) B(2) N(1343:array) B(2) v(60) B(4) N(1351:array) B(4) v(45) N(1341:array)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <ArraySubset Bounds="370 425 40 40" Id="1343" Terminals="array=1342, subarray=1350, index0=1346, length0=1315" />
-                    <Literal Bounds="290 445 39.2 16" DataType="Int32" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="1344" Label="1345" xmlns="http://www.ni.com/MocCommon">
+                    <Comment Bounds="205 130 57.6 28.8" Id="1379" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>t;0;0;0</p.Text>
+                    </Comment>
+                    <ArraySubset Bounds="265 145 40 40" Id="1382" Terminals="array=1406, subarray=1392, index0=1386, length0=1389" />
+                    <Literal Bounds="205 165 39.2 16" DataType="Int32" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="1384" Label="1385" xmlns="http://www.ni.com/MocCommon">
                         <p.Data>0</p.Data>
                         <NumericBehavior Interpretation="Exact" ValueFormatter="LV:" />
                     </Literal>
-                    <Wire Id="1346" Joints="N(1344:Out) N(1343:index0)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <TextNode AttachedTo="1344" Bounds="290 445 0 0" Id="1345" Text="index" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Reverse1DArray Bounds="515 425 40 20" Id="1349" />
-                    <Wire Id="1350" Joints="N(1343:subarray) N(1349:array)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <ArraySubset Bounds="580 485 40 40" Id="1351" Terminals="array=1342, subarray=1359, index0=1315, length0=1357" />
-                    <Subtract Bounds="470 560 30 30" Id="1354" />
-                    <Wire Id="1355" Joints="N(1341:size(s\)) h(180) v(20) N(1354:x)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Wire Id="1357" Joints="N(1354:x-y) h(75) v(-55) N(1351:length0)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <MethodCall Bounds="675 440 40 40" Id="1358" Target="student_toeplitz\.gvi">
+                    <Wire Id="1386" Joints="N(1384:Out) N(1382:index0)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <TextNode AttachedTo="1384" Bounds="205 165 0 0" Id="1385" Text="index" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Literal Bounds="205 185 39.2 16" DataType="Int32" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="1387" Label="1388" xmlns="http://www.ni.com/MocCommon">
+                        <p.Data>44</p.Data>
+                        <NumericBehavior Interpretation="Exact" ValueFormatter="LV:" />
+                    </Literal>
+                    <Wire Id="1389" Joints="N(1387:Out) h(5) v(-10) h(5.800003) B(3) N(1382:length0) B(3) v(40) N(1321:x)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <TextNode AttachedTo="1387" Bounds="205 185 0 0" Id="1388" Text="length" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Comment Bounds="305 120 32.8 28.8" Id="1391" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>t</p.Text>
+                    </Comment>
+                    <Wire Id="1392" Joints="N(1382:subarray) h(115) B(1) v(-15) h(-10) v(-55) N(1310:array) B(1) v(30) N(1319:array)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Comment Bounds="350 190 32.8 28.8" Id="1395" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>Nt</p.Text>
+                    </Comment>
+                    <Wire Id="1398" Joints="N(1338:283) h(26) v(50) h(55) B(3) N(1400:array) B(3) v(475) N(1438:array)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1399" Joints="N(1400:subarray) h(15) v(-35) h(205) v(-80) N(1335:L2)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <ArraySubset Bounds="700 240 40 40" Id="1400" Terminals="array=1398, subarray=1399, index0=1477, length0=1482" />
+                    <Wire Id="1406" Joints="N(1300:c0t0v) h(80) v(15) N(1382:array)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1409" Joints="N(1328:R0) h(65) v(5) B(2) N(1335:L0) B(2) v(130) N(1421:L0)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <MethodCall Bounds="975 235 40 40" Id="1421" Target="student_LLSE\.gvi">
+                        <p.MethodDeclaration>
+                            <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+                                <Parameter Id="L0" Desc="A" />
+                                <Parameter Id="L2" Desc="b" />
+                                <Parameter Id="R0" Desc="x.estimate" />
+                                <Parameter Id="R1" Desc="mean square error" />
+                            </MethodDeclaration>
+                        </p.MethodDeclaration>
+                        <Terminal DataType="ComplexDouble[,]" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="ComplexDouble[]" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="ComplexDouble[]" Direction="Output" Hotspot="40 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="Double" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                    </MethodCall>
+                    <ArraySubset Bounds="700 340 40 40" Id="1423" Terminals="array=1424, subarray=1427, index0=1477, length0=1482" />
+                    <Wire Id="1424" Joints="N(1363:283) h(5) v(-15) h(26) B(3) N(1423:array) B(3) v(500) N(1488:array)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1427" Joints="N(1423:subarray) h(230) v(-85) N(1421:L2)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Comment Bounds="980 195 166.4 28.8" Id="1428" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>estimate of the channel h2</p.Text>
+                    </Comment>
+                    <ArraySubset Bounds="225 450 40 40" Id="1429" Terminals="array=1430, subarray=1452, index0=1433, length0=1436" />
+                    <Wire Id="1430" Joints="N(1300:c1t0v) h(7) v(305) N(1429:array)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Literal Bounds="130 470 39.2 16" DataType="Int32" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="1431" Label="1432" xmlns="http://www.ni.com/MocCommon">
+                        <p.Data>87</p.Data>
+                        <NumericBehavior Interpretation="Exact" ValueFormatter="LV:" />
+                    </Literal>
+                    <Wire Id="1433" Joints="N(1431:Out) N(1429:index0)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <TextNode AttachedTo="1431" Bounds="130 470 0 0" Id="1432" Text="index" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Literal Bounds="125 500 39.2 16" DataType="Int32" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="1434" Label="1435" xmlns="http://www.ni.com/MocCommon">
+                        <p.Data>44</p.Data>
+                        <NumericBehavior Interpretation="Exact" ValueFormatter="LV:" />
+                    </Literal>
+                    <Wire Id="1436" Joints="N(1434:Out) h(50.8000031) v(-20) N(1429:length0)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <TextNode AttachedTo="1434" Bounds="125 500 0 0" Id="1435" Text="length" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Comment Bounds="265 415 32.8 28.8" Id="1437" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>t2</p.Text>
+                    </Comment>
+                    <ArraySubset Bounds="675 715 40 40" Id="1438" Terminals="array=1398, subarray=1484, index0=1448, length0=1472" />
+                    <Literal Bounds="120 750 39.2 16" DataType="Int32" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="1440" Label="1441" xmlns="http://www.ni.com/MocCommon">
+                        <p.Data>87</p.Data>
+                        <NumericBehavior Interpretation="Exact" ValueFormatter="LV:" />
+                    </Literal>
+                    <TextNode AttachedTo="1440" Bounds="120 750 0 0" Id="1441" Text="index" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Add Bounds="230 745 30 30" Id="1443" Terminals="o=1448, c0t0v=1444, c1t0v=1469" />
+                    <Wire Id="1444" Joints="N(1440:Out) h(60.8000031) v(-5) N(1443:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Comment Bounds="285 740 46.4 28.8" Id="1447" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>87+L</p.Text>
+                    </Comment>
+                    <Wire Id="1448" Joints="N(1443:o) h(5) v(-20) h(335) B(3) N(1438:index0) B(3) v(125) N(1488:index0)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <ArraySubset Bounds="400 445 40 40" Id="1450" Terminals="array=1452, subarray=1458, index0=1455, length0=1477" />
+                    <Wire Id="1452" Joints="N(1429:subarray) h(5) v(-5) h(10) B(3) N(1450:array) B(3) v(85) N(1461:array)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Literal Bounds="330 465 39.2 16" DataType="Int32" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="1453" Label="1454" xmlns="http://www.ni.com/MocCommon">
+                        <p.Data>0</p.Data>
+                        <NumericBehavior Interpretation="Exact" ValueFormatter="LV:" />
+                    </Literal>
+                    <Wire Id="1455" Joints="N(1453:Out) N(1450:index0)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <TextNode AttachedTo="1453" Bounds="330 465 0 0" Id="1454" Text="index" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Reverse1DArray Bounds="485 450 40 20" Id="1457" />
+                    <Wire Id="1458" Joints="N(1450:subarray) h(5) v(5) N(1457:array)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <MethodCall Bounds="680 470 40 40" Id="1459" Target="student_toeplitz\.gvi">
                         <p.MethodDeclaration>
                             <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
                                 <Parameter Id="L0" Desc="Row" />
@@ -193,9 +252,26 @@ for Packet Header/Tail</PathElement>
                         <Terminal DataType="ComplexDouble[]" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
                         <Terminal DataType="ComplexDouble[,]" Direction="Output" Hotspot="40 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
                     </MethodCall>
-                    <Wire Id="1359" Joints="N(1351:subarray) h(5) v(-35) N(1358:L1)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Wire Id="1360" Joints="N(1349:reversed array) h(5) v(15) N(1358:L0)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <MethodCall Bounds="775 440 40 40" Id="1361" Label="1366" Target="student_LLSE\.gvi">
+                    <Wire Id="1460" Joints="N(1457:reversed array) h(5) v(20) N(1459:L0)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <ArraySubset Bounds="400 530 40 40" Id="1461" Terminals="array=1452, subarray=1474, index0=1469, length0=1472" />
+                    <Subtract Bounds="225 560 30 30" Id="1463" />
+                    <Literal Bounds="130 560 39.2 16" DataType="Double" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="1464" Label="1465" xmlns="http://www.ni.com/MocCommon">
+                        <p.Data>0x4046000000000000</p.Data>
+                        <NumericBehavior Interpretation="Exact" ValueFormatter="LV:" />
+                    </Literal>
+                    <Wire Id="1466" Joints="N(1464:Out) N(1463:x)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <TextNode AttachedTo="1464" Bounds="130 560 0 0" Id="1465" Text="x" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Decrement Bounds="150 600 30 30" Id="1467" />
+                    <Wire Id="1469" Joints="N(1467:x-1) h(10) B(1) h(25) v(-35) B(3) N(1463:y) B(3) v(-25) N(1461:index0) B(1) v(150) N(1443:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Comment Bounds="180 600 32.8 28.8" Id="1470" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>L</p.Text>
+                    </Comment>
+                    <Comment Bounds="180 535 32.8 28.8" Id="1471" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>Nt</p.Text>
+                    </Comment>
+                    <Wire Id="1472" Joints="N(1463:x-y) h(50) B(1) h(88) v(-10) N(1461:length0) B(1) v(80) h(330) B(6) h(35) v(95) N(1438:length0) B(6) v(220) N(1488:length0)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1474" Joints="N(1461:subarray) h(235) v(-50) N(1459:L1)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <MethodCall Bounds="880 480 40 40" Id="1475" Target="student_LLSE\.gvi">
                         <p.MethodDeclaration>
                             <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
                                 <Parameter Id="L0" Desc="A" />
@@ -204,18 +280,19 @@ for Packet Header/Tail</PathElement>
                                 <Parameter Id="R1" Desc="mean square error" />
                             </MethodDeclaration>
                         </p.MethodDeclaration>
-                        <Terminal DataType="ComplexDouble[,]" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-                        <Terminal DataType="ComplexDouble[]" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="ComplexDouble[,]" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="ComplexDouble[]" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
                         <Terminal DataType="ComplexDouble[]" Direction="Output" Hotspot="40 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
                         <Terminal DataType="Double" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
                     </MethodCall>
-                    <Wire Id="1362" Joints="N(1363:283) h(51) B(1) v(-60) N(1369:L2) B(1) v(245) h(715) v(-140) N(1361:L2)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Wire Id="1365" Joints="N(1358:R0) h(45) B(1) N(1361:L0) B(1) v(-100) N(1374:L0)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <TextNode AttachedTo="1361" Bounds="775 422 69 16" Id="1366" IsReadOnly="True" Text="student_LLSE" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Comment Bounds="830 445 144 28.8" Id="1368" xmlns="http://www.ni.com/MocCommon">
-                        <p.Text>estimate of channel 22</p.Text>
+                    <Wire Id="1476" Joints="N(1459:R0) h(5) v(10) h(90) B(3) N(1475:L0) B(3) v(280) N(1486:L0)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1477" Joints="N(1304:x-1) h(10) B(1) h(35) B(2) v(-10) N(1310:length0) B(2) v(80) h(10) B(6) h(80) B(7) N(1319:index0) B(7) v(60) h(40) v(5) B(11) N(1400:index0) B(11) v(100) N(1423:index0) B(6) v(35) N(1321:y) B(1) v(20) h(-30) v(300) h(-70) v(40) N(1450:length0)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1482" Joints="N(1321:x-y) h(5) v(-20) h(20) B(3) N(1319:length0) B(3) v(60) h(20) v(5) B(7) N(1400:length0) B(7) v(100) N(1423:length0)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1484" Joints="N(1438:subarray) h(160) v(-215) N(1475:L2)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Comment Bounds="915 445 166.4 28.8" Id="1485" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>estimate of the channel h1</p.Text>
                     </Comment>
-                    <MethodCall Bounds="790 275 40 40" Id="1369" Label="1370" Target="student_LLSE\.gvi">
+                    <MethodCall Bounds="900 760 40 40" Id="1486" Target="student_LLSE\.gvi">
                         <p.MethodDeclaration>
                             <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
                                 <Parameter Id="L0" Desc="A" />
@@ -224,50 +301,63 @@ for Packet Header/Tail</PathElement>
                                 <Parameter Id="R1" Desc="mean square error" />
                             </MethodDeclaration>
                         </p.MethodDeclaration>
-                        <Terminal DataType="ComplexDouble[,]" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-                        <Terminal DataType="ComplexDouble[]" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="ComplexDouble[,]" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Terminal DataType="ComplexDouble[]" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
                         <Terminal DataType="ComplexDouble[]" Direction="Output" Hotspot="40 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
                         <Terminal DataType="Double" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
                     </MethodCall>
-                    <TextNode AttachedTo="1369" Bounds="790 256 69 16" Id="1370" IsReadOnly="True" Text="student_LLSE" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Comment Bounds="845 280 166.4 28.8" Id="1373" xmlns="http://www.ni.com/MocCommon">
-                        <p.Text>estimate of the channel 21</p.Text>
+                    <ArraySubset Bounds="665 840 40 40" Id="1488" Terminals="array=1424, subarray=1492, index0=1448, length0=1472" />
+                    <Wire Id="1492" Joints="N(1488:subarray) h(190) v(-60) N(1486:L2)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Comment Bounds="925 720 166.4 28.8" Id="1493" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>estimate of the channel h3</p.Text>
                     </Comment>
-                    <MethodCall Bounds="790 340 40 40" Id="1374" Label="1375" Target="student_LLSE\.gvi">
-                        <p.MethodDeclaration>
-                            <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
-                                <Parameter Id="L0" Desc="A" />
-                                <Parameter Id="L2" Desc="b" />
-                                <Parameter Id="R0" Desc="x.estimate" />
-                                <Parameter Id="R1" Desc="mean square error" />
-                            </MethodDeclaration>
-                        </p.MethodDeclaration>
-                        <Terminal DataType="ComplexDouble[,]" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-                        <Terminal DataType="ComplexDouble[]" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-                        <Terminal DataType="ComplexDouble[]" Direction="Output" Hotspot="40 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-                        <Terminal DataType="Double" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-                    </MethodCall>
-                    <TextNode AttachedTo="1374" Bounds="790 321 69 16" Id="1375" IsReadOnly="True" Text="student_LLSE" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Comment Bounds="845 345 166.4 28.8" Id="1378" xmlns="http://www.ni.com/MocCommon">
-                        <p.Text>estimate of the channel 12</p.Text>
-                    </Comment>
+                    <BuildCluster Bounds="1110 550 40 40" Id="1494" Terminals="outCluster=1509, c0t0v=1495, c1t0v=1498, c2t0v=1499, c3t0v=1500" VerticalChunkCount="4" />
+                    <Wire Id="1495" Joints="N(1335:R0) h(77) v(445) N(1494:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1498" Joints="N(1475:R0) h(35) v(80) N(1494:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1499" Joints="N(1421:R0) h(45) v(335) N(1494:c2t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1500" Joints="N(1486:R0) h(165) v(-180) N(1494:c3t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1509" Joints="N(1494:outCluster) N(1190:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <DataAccessor Bounds="1190 550 40 15" DataItem="1188" Id="1190" Label="1220">
+                        <Terminal DataType="@-2026884572_0" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+                    </DataAccessor>
+                    <TextNode AttachedTo="1190" Bounds="1235 550 97 16" Id="1220" Text="Channel estimates" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Add Bounds="1260 130 30 60" Id="1513" Terminals="o=1520, c0t0v=1514, c1t0v=1515, c2t0v=1516, c3t0v=1517" VerticalChunkCount="4" />
+                    <Wire Id="1514" Joints="N(1335:R1) h(5) v(15) N(1513:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1515" Joints="N(1421:R1) h(210) v(-100) N(1513:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1516" Joints="N(1475:R1) h(320) v(-330) N(1513:c2t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1517" Joints="N(1486:R1) h(315) v(-595) N(1513:c3t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <DataAccessor Bounds="1485 145 40 15" DataItem="1251" Id="1249" Label="1250">
+                        <Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+                    </DataAccessor>
+                    <TextNode AttachedTo="1249" Bounds="1530 145 101 16" Id="1250" Text="Mean-Square Error" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Divide Bounds="1365 140 30 30" Id="1519" />
+                    <Wire Id="1520" Joints="N(1513:o) N(1519:x)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Literal Bounds="1305 160 39.2 16" DataType="Double" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="1521" Label="1522" xmlns="http://www.ni.com/MocCommon">
+                        <p.Data>0x4010000000000000</p.Data>
+                        <NumericBehavior Interpretation="Exact" ValueFormatter="LV:" />
+                    </Literal>
+                    <Wire Id="1523" Joints="N(1521:Out) h(5) v(-5) N(1519:y)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <TextNode AttachedTo="1521" Bounds="1305 160 0 0" Id="1522" Text="y" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1524" Joints="N(1519:x/y) h(85) v(-5) N(1249:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1525" Joints="N(285:283) h(5) v(315) h(1506) v(-230) N(1526:283)" xmlns="http://www.ni.com/PlatformFramework" />
                 </CaseStructure.Case>
-                <CaseStructure.Case Bounds="5 5 1044 620" Id="284" Pattern="Error">
-                    <Wire Id="357" Joints="N(285:284) h(2521)" xmlns="http://www.ni.com/PlatformFramework" />
+                <CaseStructure.Case Bounds="5 5 1645 1095" Id="284" Pattern="Error">
+                    <Wire Id="1528" Joints="N(285:284) h(1632) v(85) N(1526:284)" xmlns="http://www.ni.com/PlatformFramework" />
                 </CaseStructure.Case>
-                <CaseStructure.Selector Bounds="-4 610 13 15" Docking="Left" Id="285" Terminals="282=1299, 283, 284=357" />
+                <CaseStructure.Selector Bounds="-4 610 13 15" Docking="Left" Id="285" Terminals="282=1299, 283=1525, 284=1528" />
                 <CaseStructure.Tunnel Bounds="-4 90 13 10" Docking="Left" Id="1302" Terminals="282=1303, 283=1301, 284" />
-                <CaseStructure.Tunnel Bounds="-4 195 13 10" Docking="Left" Id="1338" Terminals="282=1339, 283=1337, 284" />
-                <CaseStructure.Tunnel Bounds="-4 360 13 10" Docking="Left" Id="1363" Terminals="282=1364, 283=1362, 284" />
+                <CaseStructure.Tunnel Bounds="-4 195 13 10" Docking="Left" Id="1338" Terminals="282=1339, 283=1398, 284" />
+                <CaseStructure.Tunnel Bounds="-4 360 13 10" Docking="Left" Id="1363" Terminals="282=1364, 283=1424, 284" />
+                <CaseStructure.Tunnel Bounds="1646 695 13 10" Docking="Right" Id="1526" Terminals="282=1527, 283=1525, 284=1528" />
             </CaseStructure>
             <DataAccessor Bounds="-1205 650 40 15" DataItem="1093" Id="1094" Label="1095">
                 <Terminal DataType="@2081352814_0" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
             </DataAccessor>
             <TextNode AttachedTo="1094" Bounds="-1347 650 137 16" Id="1095" Text="Modulation Parameters In" xmlns="http://www.ni.com/PlatformFramework" />
-            <DataAccessor Bounds="85 660 40 15" DataItem="1174" Id="1175" Label="1176">
+            <DataAccessor Bounds="-1130 780 40 15" DataItem="1174" Id="1175" Label="1176">
                 <Terminal DataType="@2081352814_0" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
             </DataAccessor>
-            <TextNode AttachedTo="1175" Bounds="130 660 147 16" Id="1176" Text="Modulation Parameters Out" xmlns="http://www.ni.com/PlatformFramework" />
+            <TextNode AttachedTo="1175" Bounds="-1085 780 147 16" Id="1176" Text="Modulation Parameters Out" xmlns="http://www.ni.com/PlatformFramework" />
             <DataAccessor Bounds="-1195 845 40 15" DataItem="17" Id="18" Label="274">
                 <Terminal DataType="ComplexDouble[]" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
             </DataAccessor>
@@ -276,18 +366,11 @@ for Packet Header/Tail</PathElement>
                 <Terminal DataType="ComplexDouble[]" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
             </DataAccessor>
             <TextNode AttachedTo="981" Bounds="-1340 880 135 16" Id="982" Text="Input Symbol Sequence 2" xmlns="http://www.ni.com/PlatformFramework" />
-            <DataAccessor Bounds="85 780 40 15" DataItem="1188" Id="1190" Label="1220">
-                <Terminal DataType="@-2026884572_0" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-            </DataAccessor>
-            <TextNode AttachedTo="1190" Bounds="130 780 97 16" Id="1220" Text="Channel estimates" xmlns="http://www.ni.com/PlatformFramework" />
-            <DataAccessor Bounds="85 715 40 15" DataItem="1251" Id="1249" Label="1250">
-                <Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-            </DataAccessor>
-            <TextNode AttachedTo="1249" Bounds="130 715 101 16" Id="1250" Text="Mean-Square Error" xmlns="http://www.ni.com/PlatformFramework" />
             <Wire Id="1299" Joints="N(106:Value) N(285:282)" xmlns="http://www.ni.com/PlatformFramework" />
-            <Wire Id="1303" Joints="N(1094:Value) h(10) v(90) N(1302:282)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="1303" Joints="N(1094:Value) h(10) v(90) h(20) B(3) N(1302:282) B(3) v(40) N(1175:Value)" xmlns="http://www.ni.com/PlatformFramework" />
             <Wire Id="1339" Joints="N(18:Value) N(1338:282)" xmlns="http://www.ni.com/PlatformFramework" />
             <Wire Id="1364" Joints="N(981:Value) h(10) v(130) N(1363:282)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="1527" Joints="N(1526:282) h(-1) v(-5) N(209:Value)" xmlns="http://www.ni.com/PlatformFramework" />
         </BlockDiagram>
         <CPFrontPanel Height="[float]1600" Id="13" Width="[float]2000">
             <ArrayViewer ArrayElement="[UIModel]16" BaseName="[string]Array" Columns="[int]8" Dimensions="[int]1" Height="[float]37" Id="19" Label="[UIModel]220" Left="[float]612" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]644" Value="{DataItemBinding Id=17}" Width="[float]627" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
