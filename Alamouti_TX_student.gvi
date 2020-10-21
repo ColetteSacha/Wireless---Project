@@ -51,10 +51,10 @@
                 <CaseStructure.Case Bounds="5 5 754 365" Id="184" Pattern="No Error">
                     <DecimateArray Bounds="100 90 40 30" Id="648" Terminals="array=649, c0t0v=656, c1t0v=658" />
                     <Wire Id="649" Joints="N(641:184) h(5) v(15) N(648:array)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Comment Bounds="145 60 73.6 28.8" Id="652" xmlns="http://www.ni.com/MocCommon">
+                    <Comment Bounds="220 55 73.6 28.8" Id="652" xmlns="http://www.ni.com/MocCommon">
                         <p.Text>antenna 0</p.Text>
                     </Comment>
-                    <Comment Bounds="225 225 73.6 28.8" Id="653" xmlns="http://www.ni.com/MocCommon">
+                    <Comment Bounds="245 245 73.6 28.8" Id="653" xmlns="http://www.ni.com/MocCommon">
                         <p.Text>antenna 1</p.Text>
                     </Comment>
                     <InterleaveArray Bounds="550 100 40 30" Id="654" Terminals="outArray=688, c0t0v=656, c1t0v=665" />
@@ -84,6 +84,12 @@
                     <Wire Id="697" Joints="N(669:outArray) N(694:Value)" xmlns="http://www.ni.com/PlatformFramework" />
                     <TextNode AttachedTo="694" Bounds="655 275 49 16" Id="696" Text="&quot;output 2 &quot;" xmlns="http://www.ni.com/PlatformFramework" />
                     <Wire Id="698" Joints="N(186:184) N(699:184)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Comment Bounds="140 70 32.8 28.8" Id="704" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>s0</p.Text>
+                    </Comment>
+                    <Comment Bounds="135 120 32.8 28.8" Id="705" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>s1</p.Text>
+                    </Comment>
                 </CaseStructure.Case>
                 <CaseStructure.Case Bounds="5 5 754 365" Id="185" Pattern="Error">
                     <Wire Id="701" Joints="N(186:185) N(699:185)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -96,16 +102,16 @@
                 <Terminal DataType="@-1596811593_0" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
             </DataAccessor>
             <TextNode AttachedTo="490" Bounds="-470 696 137 16" Id="491" Text="Modulation Parameters In" xmlns="http://www.ni.com/PlatformFramework" />
-            <DataAccessor Bounds="495 715 40 15" DataItem="537" Id="534" Label="536">
+            <DataAccessor Bounds="535 710 40 15" DataItem="537" Id="534" Label="536">
                 <Terminal DataType="@384786743_0" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
             </DataAccessor>
-            <TextNode AttachedTo="534" Bounds="495 696 147 16" Id="536" Text="Modulation Parameters Out" xmlns="http://www.ni.com/PlatformFramework" />
+            <TextNode AttachedTo="534" Bounds="535 691 147 16" Id="536" Text="Modulation Parameters Out" xmlns="http://www.ni.com/PlatformFramework" />
             <DataAccessor Bounds="-485 460 40 15" DataItem="464" Id="459" Label="462">
                 <Terminal DataType="ComplexDouble[]" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
             </DataAccessor>
             <TextNode AttachedTo="459" Bounds="-485 441 78 16" Id="462" Text="&quot;input symbols &quot;" xmlns="http://www.ni.com/PlatformFramework" />
             <Wire Id="640" Joints="N(459:Value) N(641:183)" xmlns="http://www.ni.com/PlatformFramework" />
-            <Wire Id="647" Joints="N(490:Value) h(5) v(65) h(915) v(-65) N(534:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="647" Joints="N(490:Value) h(5) v(60) h(925) v(-65) N(534:Value)" xmlns="http://www.ni.com/PlatformFramework" />
             <Wire Id="677" Joints="N(73:Value) N(186:183)" xmlns="http://www.ni.com/PlatformFramework" />
             <Wire Id="700" Joints="N(699:183) N(137:Value)" xmlns="http://www.ni.com/PlatformFramework" />
         </BlockDiagram>

@@ -240,7 +240,7 @@
             <DataAccessor Bounds="785 650 40 15" DataItem="308" Id="309" Label="431">
                 <Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
             </DataAccessor>
-            <Literal Bounds="785 370 26 15" DataType="Boolean" Facade="NationalInstruments.MocCommon.Modeling.IBooleanBehavior" Id="313" xmlns="http://www.ni.com/MocCommon">
+            <Literal Bounds="785.4 370 25.6 15.2" DataType="Boolean" Facade="NationalInstruments.MocCommon.Modeling.IBooleanBehavior" Id="313" xmlns="http://www.ni.com/MocCommon">
                 <p.Data>True</p.Data>
                 <BooleanBehavior />
             </Literal>
@@ -299,7 +299,7 @@ for Packet Header/Tail</PathElement>
                 <Subtract Bounds="465 15 30 30" Id="565" />
                 <Divide Bounds="585 25 30 30" Id="566" />
                 <Square Bounds="640 25 30 30" Id="567" />
-                <Comment Bounds="80 255 97 28" Id="570" xmlns="http://www.ni.com/MocCommon">
+                <Comment Bounds="80 255 96 28.8" Id="570" xmlns="http://www.ni.com/MocCommon">
                     <p.Text>IQ Waveforms</p.Text>
                 </Comment>
                 <Wire Id="589" Joints="N(567:x^2) N(445:434)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -322,7 +322,6 @@ for Packet Header/Tail</PathElement>
                             <Parameter Id="L6" Desc="Parameters" />
                             <Parameter Id="L3" Desc=" IQ Waveform 2" />
                             <Parameter Id="T3" Desc="Channel Model Parameters" />
-                            <Parameter Id="L4" Desc="Training Sequences" />
                             <Parameter Id="T4" Desc="TX Modulation Parameters" />
                             <Parameter Id="R4" Desc="Eye Diagram 1" />
                             <Parameter Id="T2" Desc="Average Bit-Error Rate" />
@@ -351,7 +350,6 @@ for Packet Header/Tail</PathElement>
                     <Terminal DataType="Int32" Direction="Input" Hotspot="0 65" Id="L6" xmlns="http://www.ni.com/PlatformFramework" />
                     <Terminal DataType="@1785820191_0" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
                     <Terminal DataType="@-771384584_0" Direction="Input" Hotspot="45 0" Id="T3" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Terminal DataType="@-1612204933_0" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
                     <Terminal DataType="@384786743_0" Direction="Input" Hotspot="55 0" Id="T4" xmlns="http://www.ni.com/PlatformFramework" />
                     <Terminal DataType="@-476918808_0" Direction="Output" Hotspot="80 45" Id="R4" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
                     <Terminal DataType="Double" Direction="Output" Hotspot="35 0" Id="T2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
@@ -509,10 +507,10 @@ for Packet Header/Tail</PathElement>
                     <PathElement>Training Sequences</PathElement>
                 </p.PropertyItem>
             </PropertyNode>
-            <Comment Bounds="1055 285 85 28" Id="580" xmlns="http://www.ni.com/MocCommon">
+            <Comment Bounds="1055 285 84.8 28.8" Id="580" xmlns="http://www.ni.com/MocCommon">
                 <p.Text>actual delay</p.Text>
             </Comment>
-            <Comment Bounds="1015 545 33 28" Id="581" xmlns="http://www.ni.com/MocCommon">
+            <Comment Bounds="1015 545 32.8 28.8" Id="581" xmlns="http://www.ni.com/MocCommon">
                 <p.Text>Ts</p.Text>
             </Comment>
             <Wire Id="616" Joints="N(445:433) N(946:L2)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -636,7 +634,7 @@ for Packet Header/Tail</PathElement>
                     <PathElement>TX Sample Rate</PathElement>
                 </p.PropertyItem>
             </PropertyNode>
-            <ClusterLiteral Bounds="323 490 12 10" DataType="@618791806_0" Facade="DockedConstantFacade" Id="3576" xmlns="http://www.ni.com/MocCommon">
+            <ClusterLiteral Bounds="358 490 12 10" DataType="@618791806_0" Facade="DockedConstantFacade" Id="3576" xmlns="http://www.ni.com/MocCommon">
                 <p.Data>
                     <Cluster>
                         <Field1>
@@ -682,7 +680,7 @@ for Packet Header/Tail</PathElement>
                 <TextNode AttachedTo="3581" Bounds="5 110 157 16" Id="3582" Text="Training Sequence 2 (derived)" xmlns="http://www.ni.com/PlatformFramework" />
                 <DockedConstantFacade UndockedBounds="50 315 180 136" />
             </ClusterLiteral>
-            <PropertyNode Bounds="335 490 150 45" HasErrorTerminals="False" Id="3585" InstanceDataType="@618791806_0" Template="List" Terminals="instance in=3588~0:5, instance out=3594~150:5, c0t0v=3587~0:35">
+            <PropertyNode Bounds="370 490 150 45" HasErrorTerminals="False" Id="3585" InstanceDataType="@618791806_0" Template="List" Terminals="instance in=3588~0:5, instance out=3594~150:5, c0t0v=3587~0:35">
                 <p.PropertyItem IsWrite="True">
                     <PathElement>Zero Pad Length</PathElement>
                 </p.PropertyItem>
@@ -5005,38 +5003,6 @@ for Packet Header/Tail</PathElement>
                             </DataType>
                         </Field>
                         <Field FieldAccessPolicy="ReadWrite" Name="Channel Response h_22">
-                            <DataType>
-                                <VariableArray>
-                                    <DereferenceType>
-                                        <ComplexDouble />
-                                    </DereferenceType>
-                                </VariableArray>
-                            </DataType>
-                        </Field>
-                    </Members>
-                </Class>
-            </p.TypeReference>
-            <p.TypeReference TypeId="-1612204933_0">
-                <Class Id="1" Name="" Cluster="">
-                    <ClosedGenericParameters />
-                    <GenericTypeDefinition>
-                        <Void />
-                    </GenericTypeDefinition>
-                    <BaseType>
-                        <Void />
-                    </BaseType>
-                    <Interfaces />
-                    <Members>
-                        <Field FieldAccessPolicy="ReadWrite" Name="Training sequence 1 ">
-                            <DataType>
-                                <VariableArray>
-                                    <DereferenceType>
-                                        <ComplexDouble />
-                                    </DereferenceType>
-                                </VariableArray>
-                            </DataType>
-                        </Field>
-                        <Field FieldAccessPolicy="ReadWrite" Name="Training sequence 2">
                             <DataType>
                                 <VariableArray>
                                     <DereferenceType>
