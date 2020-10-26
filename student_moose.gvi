@@ -163,7 +163,7 @@
             <QuotientAndRemainder Bounds="925 330 30 30" Id="459" />
             <Wire Id="460" Joints="N(456:size(s\)) h(5) v(-15) N(459:x)" xmlns="http://www.ni.com/PlatformFramework" />
             <Literal Bounds="855 360 39.2 16" DataType="Int32" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="461" Label="462" xmlns="http://www.ni.com/MocCommon">
-                <p.Data>2</p.Data>
+                <p.Data>16</p.Data>
                 <NumericBehavior Interpretation="Exact" ValueFormatter="LV:" />
             </Literal>
             <TextNode AttachedTo="461" Bounds="855 360 0 0" Id="462" Text="y" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
@@ -207,7 +207,7 @@
                 <p.Text>L</p.Text>
             </Comment>
             <Subtract Bounds="1120 655 30 30" Id="502" />
-            <Wire Id="505" Joints="N(502:x-y) h(120) v(-100) h(30) B(3) N(480:length0) B(3) v(-150) N(509:length0) B(3) v(40) N(537:535)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="505" Joints="N(502:x-y) h(100) v(-60) B(2) N(537:535) B(2) v(-40) B(4) N(480:length0) B(4) v(-150) N(509:length0)" xmlns="http://www.ni.com/PlatformFramework" />
             <Comment Bounds="1360 525 36.8 28.8" Id="506" xmlns="http://www.ni.com/MocCommon">
                 <p.Text>y(l)</p.Text>
             </Comment>
@@ -225,7 +225,7 @@
             <Wire Id="524" Joints="N(521:sum) N(523:r * e^(i*theta\))" xmlns="http://www.ni.com/PlatformFramework" />
             <Divide Bounds="1715 455 30 30" Id="525" />
             <Wire Id="526" Joints="N(523:theta) h(7) v(-10) N(525:x)" xmlns="http://www.ni.com/PlatformFramework" />
-            <Wire Id="527" Joints="N(469:o) h(25) v(70) N(525:y)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="527" Joints="N(469:o) h(25) v(80) h(705) v(-10) N(525:y)" xmlns="http://www.ni.com/PlatformFramework" />
             <Wire Id="528" Joints="N(525:x/y) h(5) B(1) N(112:Value) B(1) v(65) N(532:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
             <Multiply Bounds="1755 530 30 30" Id="532" Terminals="o=560, c0t0v=528, c1t0v=471" />
             <ForLoop Bounds="1888 603 320 225" DiagramId="536" Id="535">
@@ -361,7 +361,7 @@ for Packet Header/Tail</PathElement>
             </PropertyNode>
             <Wire Id="655" Joints="N(652:c1t0v) h(55) v(-170) N(654:instance in)" xmlns="http://www.ni.com/PlatformFramework" />
             <Wire Id="657" Joints="N(652:c5t0v) h(235) v(-110) h(210) v(130) N(449:x)" xmlns="http://www.ni.com/PlatformFramework" />
-            <Wire Id="658" Joints="N(652:c13t0v) h(14) v(110) h(386) v(-195) N(449:y)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="658" Joints="N(652:c13t0v) h(14) v(-15) h(386) v(-70) N(449:y)" xmlns="http://www.ni.com/PlatformFramework" />
             <Wire Id="662" Joints="N(652:c19t0v) h(45) v(65) h(380) v(-75) N(466:instance in)" xmlns="http://www.ni.com/PlatformFramework" />
         </BlockDiagram>
         <CPFrontPanel Height="[float]1600" Id="13" Width="[float]2000">
