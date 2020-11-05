@@ -360,6 +360,7 @@
                                                     <Parameter Id="L2" Desc="queue in" />
                                                     <Parameter Id="L6" Desc="error in (no error)" />
                                                     <Parameter Id="L4" Desc="Input Complex Waveform 1" />
+                                                    <Parameter Id="L3" Desc="Channel Model Parameters" />
                                                     <Parameter Id="L5" Desc="Input Complex Waveform 2" />
                                                     <Parameter Id="R6" Desc="error out" />
                                                     <Parameter Id="R1" Desc="Modulation Parameters Out" />
@@ -383,6 +384,7 @@
                                             <Terminal DataType="@-136323547_0" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
                                             <Terminal DataType="Error" Direction="Input" Hotspot="0 65" Id="L6" xmlns="http://www.ni.com/PlatformFramework" />
                                             <Terminal DataType="@1785820191_0" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+                                            <Terminal DataType="@-771384584_0" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
                                             <Terminal DataType="@1785820191_0" Direction="Input" Hotspot="0 55" Id="L5" xmlns="http://www.ni.com/PlatformFramework" />
                                             <Terminal DataType="Error" Direction="Output" Hotspot="80 65" Id="R6" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
                                             <Terminal DataType="@2081352814_0" Direction="Output" Hotspot="80 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
@@ -514,6 +516,7 @@
                                         <Wire Id="6637" Joints="N(6574:c1t0v) N(6591:Value)" xmlns="http://www.ni.com/PlatformFramework" />
                                         <Wire Id="6638" Joints="N(6574:c2t0v) N(6606:Value)" xmlns="http://www.ni.com/PlatformFramework" />
                                         <Wire Id="6639" Joints="N(6574:c3t0v) N(6621:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+                                        <Wire Id="6650" Joints="N(6651:157) h(126) v(-460) N(716:L3)" xmlns="http://www.ni.com/PlatformFramework" />
                                     </CaseStructure.Case>
                                     <CaseStructure.Selector Bounds="-4 245 13 15" Docking="Left" Id="158" Terminals="117=142, 156, 157" />
                                     <CaseStructure.Tunnel Bounds="-4 315 13 10" Docking="Left" Id="159" Terminals="117=136, 156, 157=6260" />
@@ -528,6 +531,7 @@
                                     <CaseStructure.Tunnel Bounds="-4 325 13 10" Docking="Left" Id="2550" Terminals="117=2549, 156, 157=6262" />
                                     <CaseStructure.Tunnel Bounds="-4 285 13 10" Docking="Left" Id="4585" Terminals="117=4586, 156, 157=4632" />
                                     <CaseStructure.Tunnel Bounds="-4 295 13 10" Docking="Left" Id="6302" Terminals="117=6301, 156=6307, 157=6306" />
+                                    <CaseStructure.Tunnel Bounds="-4 765 13 10" Docking="Left" Id="6651" Terminals="117=6652, 156, 157=6650" />
                                 </CaseStructure>
                                 <DataAccessor Bounds="515 105 40 15" DataItem="281" Id="118" Label="119">
                                     <Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
@@ -904,7 +908,7 @@
                                         <Wire Id="6566" Joints="N(6545:instance out) N(6558:instance in)" xmlns="http://www.ni.com/PlatformFramework" />
                                         <Wire Id="6567" Joints="N(6557:instance out) h(5) v(-65) N(172:169)" xmlns="http://www.ni.com/PlatformFramework" />
                                         <Wire Id="6568" Joints="N(6558:instance out) h(5) v(-215) N(2548:169)" xmlns="http://www.ni.com/PlatformFramework" />
-                                        <Wire Id="6573" Joints="N(6439:Value) h(55) v(-65) N(6518:L0)" xmlns="http://www.ni.com/PlatformFramework" />
+                                        <Wire Id="6573" Joints="N(6439:Value) h(55) v(-5) B(2) N(6653:169) B(2) v(-60) N(6518:L0)" xmlns="http://www.ni.com/PlatformFramework" />
                                     </CaseStructure.Case>
                                     <CaseStructure.Selector Bounds="-4 25 13 15" Docking="Left" Id="170" Terminals="120=2644, 168, 169=1000" />
                                     <CaseStructure.Tunnel Bounds="1156 95 13 10" Docking="Right" Id="172" Terminals="120=136, 168=2540, 169=6567" />
@@ -920,6 +924,7 @@
                                     <CaseStructure.Tunnel Bounds="1156 65 13 10" DefaultIfUnwired="True" Docking="Right" Id="4587" Terminals="120=4586, 168=4578, 169=6453" />
                                     <CaseStructure.Tunnel Bounds="-4 75 13 10" Docking="Left" Id="6265" Terminals="120=6264, 168=6289, 169=6298" />
                                     <CaseStructure.Tunnel Bounds="1156 75 13 10" DefaultIfUnwired="True" Docking="Right" Id="6300" Terminals="120=6301, 168=6304, 169=6298" />
+                                    <CaseStructure.Tunnel Bounds="1156 545 13 10" DefaultIfUnwired="True" Docking="Right" Id="6653" Terminals="120=6652, 168, 169=6573" />
                                 </CaseStructure>
                                 <PropertyNode Bounds="1978 590 150 45" HasErrorTerminals="False" Id="121" InstanceDataType="Error" Template="List" Terminals="instance in=129~0:5, instance out~150:5, c0t0v=127~150:35">
                                     <p.PropertyItem IsWrite="False">
@@ -1015,6 +1020,7 @@
                                 <Wire Id="4595" Joints="N(515:503) N(2510:L3)" xmlns="http://www.ni.com/PlatformFramework" />
                                 <Wire Id="6264" Joints="N(2510:R3) N(6265:120)" xmlns="http://www.ni.com/PlatformFramework" />
                                 <Wire Id="6301" Joints="N(6300:120) N(6302:117)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Wire Id="6652" Joints="N(6653:120) N(6651:117)" xmlns="http://www.ni.com/PlatformFramework" />
                                 <WhileLoop.Tunnel Bounds="2276 320 13 10" Docking="Right" Id="506" Terminals="502=74, 503=149" />
                                 <WhileLoop.Tunnel Bounds="2276 445 13 10" Docking="Right" Id="507" Terminals="502=73, 503=129" />
                                 <WhileLoop.Tunnel Bounds="-4 340 13 10" Docking="Left" Id="510" Terminals="502=70, 503=670" />
@@ -1188,11 +1194,11 @@
                             <PlotRenderer Id="6390" PointFill="[SMSolidColorBrush]#ffa08bb0" PointShape="[PointShape]Rectangle" PointSize="[SMSize]5, 5" />
                             <PlotRenderer Id="6391" PointFill="[SMSolidColorBrush]#ff7f7f7f" PointShape="[PointShape]Diamond" PointSize="[SMSize]5, 5" />
                             <PlotRenderer Id="6392" PointFill="[SMSolidColorBrush]#ff3c0726" PointShape="[PointShape]Cross" PointSize="[SMSize]5, 5" />
-                            <Axis Adjuster="[RangeAdjuster]FitLoosely" Id="6393" Label="[string]Time" MajorDivisions="[UIModel]6397" MajorGridLines="[UIModel]6398" Orientation="[SMOrientation]Horizontal" Range="[IRange]-0.8, 0.8, System.Double" ValueType="[Type]Double">
+                            <Axis Adjuster="[RangeAdjuster]FitLoosely" Id="6393" Label="[string]Time" MajorDivisions="[UIModel]6397" MajorGridLines="[UIModel]6398" Orientation="[SMOrientation]Horizontal" Range="[IRange]-2, 2, System.Double" ValueType="[Type]Double">
                                 <RangeLabeledDivisions Id="6397" LabelPresenter="[string]LVRelativeSeconds:&gt;&gt;0.0#E+0" />
                                 <GridLines Id="6398" />
                             </Axis>
-                            <Axis Adjuster="[RangeAdjuster]FitLoosely" Id="6394" Label="[string]Amplitude" MajorDivisions="[UIModel]6399" MajorGridLines="[UIModel]6400" Orientation="[SMOrientation]Vertical" Range="[IRange]-0.8, 0.8, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
+                            <Axis Adjuster="[RangeAdjuster]FitLoosely" Id="6394" Label="[string]Amplitude" MajorDivisions="[UIModel]6399" MajorGridLines="[UIModel]6400" Orientation="[SMOrientation]Vertical" Range="[IRange]-1.4000000000000001, 1.8, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
                                 <RangeLabeledDivisions Id="6399" LabelPresenter="[string]LVRelativeSeconds:&gt;&gt;0.0#E+0" />
                                 <GridLines Id="6400" />
                             </Axis>
