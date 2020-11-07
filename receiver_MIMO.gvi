@@ -435,7 +435,7 @@
                     <Comment Bounds="510 385 112 28.8" Id="51" xmlns="http://www.ni.com/MocCommon">
                         <p.Text>key bit sequence</p.Text>
                     </Comment>
-                    <Comment Bounds="150 95 433.6 41.6" Id="48" xmlns="http://www.ni.com/MocCommon">
+                    <Comment Bounds="220 200 433.6 41.6" Id="48" xmlns="http://www.ni.com/MocCommon">
                         <p.Text>"1.Determine the number of data symbols, the symbol rate, the overhead \noffset, and get the key bit sequence and training sequence from the queue"</p.Text>
                     </Comment>
                     <Comment Bounds="990 100 416 28.8" Id="52" xmlns="http://www.ni.com/MocCommon">
@@ -668,7 +668,7 @@
                     <Wire Id="1989" Joints="N(1986:c1t0v) h(14) v(-40) N(1988:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
                     <Wire Id="1990" Joints="N(1986:c5t0v) h(35) v(-90) N(1988:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
                     <Wire Id="1991" Joints="N(1986:c6t0v) h(50) v(-95) N(1988:c2t0v)" xmlns="http://www.ni.com/PlatformFramework" />
-                    <Wire Id="1992" Joints="N(1986:c7t0v) h(14) v(-35) h(71) v(-65) N(1988:c3t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="1992" Joints="N(1986:c7t0v) h(85) v(-100) N(1988:c3t0v)" xmlns="http://www.ni.com/PlatformFramework" />
                 </CaseStructure.Case>
                 <CaseStructure.Case Bounds="5 5 1455 600" Id="23" Pattern="Error">
                     <Wire Id="99" Joints="N(24:23) h(1061) v(50) N(25:23)" xmlns="http://www.ni.com/PlatformFramework" />

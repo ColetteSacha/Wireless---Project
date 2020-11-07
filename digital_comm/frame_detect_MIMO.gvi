@@ -68,9 +68,9 @@
                     <TextNode AttachedTo="130" Bounds="595 130 69 16" Id="181" Text="Frame Offset" xmlns="http://www.ni.com/PlatformFramework" />
                     <CaseStructure Bounds="180 55 334 190" DataType="String" Default="192" Id="191" Selected="192" UserSelectorBounds="62.4 0 208.8 16.8">
                         <CaseStructure.Case Bounds="5 5 324 180" Id="192" Pattern="&quot;Sliding Correlator&quot;, Default">
-                            <Wire Id="233" Joints="N(785:R0) h(5) v(5) h(30) v(-5) N(198:192)" xmlns="http://www.ni.com/PlatformFramework" />
-                            <Wire Id="234" Joints="N(196:192) h(131) v(-5) N(785:L0)" xmlns="http://www.ni.com/PlatformFramework" />
-                            <Wire Id="757" Joints="N(202:192) h(131) v(-5) N(785:L2)" xmlns="http://www.ni.com/PlatformFramework" />
+                            <Wire Id="233" Joints="N(785:R0) N(198:192)" xmlns="http://www.ni.com/PlatformFramework" />
+                            <Wire Id="234" Joints="N(196:192) h(5) v(-5) N(785:L0)" xmlns="http://www.ni.com/PlatformFramework" />
+                            <Wire Id="757" Joints="N(202:192) h(5) v(-5) N(785:L2)" xmlns="http://www.ni.com/PlatformFramework" />
                             <Wire Id="773" Joints="N(197:192) h(136) v(-60) h(5) N(785:L3)" xmlns="http://www.ni.com/PlatformFramework" />
                             <Wire Id="775" Joints="N(785:R1) h(5) v(5) h(55) v(5) N(199:192)" xmlns="http://www.ni.com/PlatformFramework" />
                             <Wire Id="777" Joints="N(785:R2) h(5) v(5) h(70) v(15) N(200:192)" xmlns="http://www.ni.com/PlatformFramework" />
